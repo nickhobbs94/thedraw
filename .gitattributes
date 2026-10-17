@@ -1,0 +1,2 @@
+# Calendar files use CRLF line endings (RFC 5545); keep git from touching them.
+*.ics -text
