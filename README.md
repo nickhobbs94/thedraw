@@ -1,7 +1,6 @@
 # The Draw
 
-Upcoming fixtures for Australian football and rugby league as calendars you can
-subscribe to. Every match is in your calendar with its kick-off time in your own
+Upcoming A-League, NRL and AFL fixtures as calendars you can subscribe to. Every match is in your calendar with its kick-off time in your own
 timezone, and it stays up to date: when a match moves for TV or gets postponed, your
 calendar changes too. Matches drop off once they've been played.
 
@@ -13,6 +12,7 @@ calendar changes too. Matches drop off once they've been played.
 | A-League Men | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-men.ics` | 153 |
 | A-League Women | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-women.ics` | 107 |
 | NRL | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/nrl.ics` | 0 |
+| AFL | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/afl.ics` | 0 |
 | The Draw | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/all.ics` | 260 |
 <!-- FEEDS:END -->
 
@@ -49,5 +49,5 @@ To stop, remove or unsubscribe from the calendar in your app.
 - The calendars are rebuilt every 6 hours, but each app decides how often it checks
   for changes. Google can take up to a day, so a late time change may not show up
   straight away. Apple lets you choose the refresh interval.
-- Between seasons a calendar is empty until the new draw is released (the NRL draw
-  usually comes out in November).
+- Between seasons a calendar is empty until the new draw is released (the NRL and AFL
+  draws usually come out in late October or November).
