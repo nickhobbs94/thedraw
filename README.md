@@ -2,18 +2,18 @@
 
 Upcoming A-League, NRL and AFL fixtures as calendars you can subscribe to. Every match is in your calendar with its kick-off time in your own
 timezone, and it stays up to date: when a match moves for TV or gets postponed, your
-calendar changes too. Matches drop off once they've been played.
+calendar changes too. Matches drop off a week after they've been played.
 
 ## Calendars
 
 <!-- FEEDS:START -->
-| Calendar | Subscribe URL | Upcoming matches |
+| Calendar | Subscribe URL | Matches |
 |---|---|---|
-| A-League Men | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-men.ics` | 153 |
-| A-League Women | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-women.ics` | 107 |
+| A-League Men | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-men.ics` | 156 |
+| A-League Women | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-women.ics` | 110 |
 | NRL | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/nrl.ics` | 0 |
 | AFL | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/afl.ics` | 0 |
-| The Draw | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/all.ics` | 260 |
+| The Draw | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/all.ics` | 266 |
 <!-- FEEDS:END -->
 
 **The Draw** has every match from the other calendars in one, with the league in
