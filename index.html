@@ -60,6 +60,25 @@ h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: 
 .pick input { accent-color: var(--accent); width: 16px; height: 16px; margin: 0; }
 .pick:has(input:checked) { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
 .card:has(.pick input:checked) { border-color: var(--accent); }
+.teams .lede { color: var(--muted); margin: -4px 0 14px; max-width: 640px; }
+.find {
+  width: 100%; max-width: 360px; font: inherit; color: var(--text); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 9px; padding: 9px 12px; margin-bottom: 8px;
+}
+.find:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.family h3 { font-size: .95rem; margin: 18px 0 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 7px; cursor: pointer; user-select: none;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 999px;
+  padding: 6px 13px 6px 9px; font-size: .92rem; font-weight: 500;
+}
+.chip input { accent-color: var(--accent); width: 15px; height: 15px; margin: 0; }
+.chip:hover { border-color: var(--muted); }
+.chip:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.chip:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+.chip[hidden], .family[hidden] { display: none; }
+.teams .none { color: var(--muted); }
 .mixbar {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; background: var(--surface);
   border-top: 1px solid var(--line); box-shadow: 0 -6px 24px rgb(0 0 0 / .08);
@@ -125,13 +144,13 @@ footer.site a { color: inherit; }
   <div class="intro">
     <h1>Every kick-off, in your calendar.</h1>
     <p>Free calendars for the A-League, NRL, AFL, Socceroos, Matildas and more. Subscribe once and they stay up to date when matches move or get postponed.</p>
-    <p class="tip">Follow a few? Tick <strong>Pick</strong> on each one and get them all in a single calendar.</p>
+    <p class="tip">Follow a few? Tick <strong>Pick</strong> on competitions, or pick <a href="#teams">individual teams</a>, and get them all in a single calendar.</p>
   </div>
 
   <article class="card featured">
   <header>
     <span class="emoji" aria-hidden="true">📅</span>
-    <div class="titles"><h3>Footy Draw</h3><span class="count">309 matches</span></div>
+    <div class="titles"><h3>Footy Draw</h3><span class="count">484 matches</span></div>
     
   </header>
   <p class="blurb">Every match from every calendar here, tagged by competition.</p>
@@ -217,18 +236,35 @@ footer.site a { color: inherit; }
 <article class="card">
   <header>
     <span class="emoji" aria-hidden="true">⚽</span>
-    <div class="titles"><h3>A-League clubs in Asia</h3><span class="count">17 matches</span></div>
-    <label class="pick"><input type="checkbox" data-slug="a-league-in-asia" data-name="A-League clubs in Asia"><span>Pick</span></label>
+    <div class="titles"><h3>AFC Champions League Elite</h3><span class="count">112 matches</span></div>
+    <label class="pick"><input type="checkbox" data-slug="acl-elite" data-name="AFC Champions League Elite"><span>Pick</span></label>
   </header>
-  <p class="blurb">A-League clubs in the AFC Champions League Elite and Two.</p>
-  <p class="next"><span class="kicker">Next</span><span class="match">Kyoto Sanga v Newcastle Jets</span><span class="when"><time datetime="2026-10-27T10:00:00Z" data-local>Tue 27 Oct, 9:00 pm AEDT</time></span><span class="where">Sanga Stadium by Kyocera, Kyoto</span></p>
+  <p class="blurb">Asia&#x27;s top club competition, including A-League clubs.</p>
+  <p class="next"><span class="kicker">Next</span><span class="match">Neftchi Fergana v Al Ittihad</span><span class="when"><time datetime="2026-10-26T13:45:00Z" data-local>Tue 27 Oct, 12:45 am AEDT</time></span><span class="where">Istiqlol Stadium, Fergana</span></p>
   <div class="actions">
-    <a class="btn primary" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Ffootydraw.com%2Fcalendars%2Fa-league-in-asia.ics" target="_blank" rel="noopener">Add to Google</a>
-    <a class="btn" href="webcal://footydraw.com/calendars/a-league-in-asia.ics">Apple / Outlook</a>
+    <a class="btn primary" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Ffootydraw.com%2Fcalendars%2Facl-elite.ics" target="_blank" rel="noopener">Add to Google</a>
+    <a class="btn" href="webcal://footydraw.com/calendars/acl-elite.ics">Apple / Outlook</a>
   </div>
   <div class="link">
-    <input type="text" readonly value="https://footydraw.com/calendars/a-league-in-asia.ics" aria-label="A-League clubs in Asia calendar link" onfocus="this.select()">
-    <button class="copy" type="button" data-url="https://footydraw.com/calendars/a-league-in-asia.ics">Copy</button>
+    <input type="text" readonly value="https://footydraw.com/calendars/acl-elite.ics" aria-label="AFC Champions League Elite calendar link" onfocus="this.select()">
+    <button class="copy" type="button" data-url="https://footydraw.com/calendars/acl-elite.ics">Copy</button>
+  </div>
+</article>
+<article class="card">
+  <header>
+    <span class="emoji" aria-hidden="true">⚽</span>
+    <div class="titles"><h3>AFC Champions League Two</h3><span class="count">80 matches</span></div>
+    <label class="pick"><input type="checkbox" data-slug="acl-two" data-name="AFC Champions League Two"><span>Pick</span></label>
+  </header>
+  <p class="blurb">Asia&#x27;s second club competition, including A-League clubs.</p>
+  <p class="next"><span class="kicker">Next</span><span class="match">Al-Seeb v East Bengal FC</span><span class="when"><time datetime="2026-10-27T16:00:00Z" data-local>Wed 28 Oct, 3:00 am AEDT</time></span><span class="where">Seeb Stadium</span></p>
+  <div class="actions">
+    <a class="btn primary" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Ffootydraw.com%2Fcalendars%2Facl-two.ics" target="_blank" rel="noopener">Add to Google</a>
+    <a class="btn" href="webcal://footydraw.com/calendars/acl-two.ics">Apple / Outlook</a>
+  </div>
+  <div class="link">
+    <input type="text" readonly value="https://footydraw.com/calendars/acl-two.ics" aria-label="AFC Champions League Two calendar link" onfocus="this.select()">
+    <button class="copy" type="button" data-url="https://footydraw.com/calendars/acl-two.ics">Copy</button>
   </div>
 </article></div></section>
 <section><h2>Rugby league</h2><div class="grid"><article class="card">
@@ -282,6 +318,14 @@ footer.site a { color: inherit; }
     <button class="copy" type="button" data-url="https://footydraw.com/calendars/afl.ics">Copy</button>
   </div>
 </article></div></section>
+<section class="teams" id="teams">
+  <h2>Teams</h2>
+  <p class="lede">Pick a club and get every match it plays, in every competition here: an A-League club's
+  Asian matches come with its league ones.</p>
+  <input class="find" type="search" placeholder="Find a team" aria-label="Find a team">
+  <div class="family"><h3>Football</h3><div class="chips"><label class="chip" title="Plays in: A-League Men, AFC Champions League Two"><input type="checkbox" data-slug="football-adelaide-united" data-name="Adelaide United"><span>Adelaide United</span></label><label class="chip" title="Plays in: A-League Men"><input type="checkbox" data-slug="football-auckland-fc" data-name="Auckland FC"><span>Auckland FC</span></label><label class="chip" title="Plays in: A-League Men"><input type="checkbox" data-slug="football-brisbane-roar" data-name="Brisbane Roar"><span>Brisbane Roar</span></label><label class="chip" title="Plays in: A-League Men"><input type="checkbox" data-slug="football-central-coast-mariners" data-name="Central Coast Mariners"><span>Central Coast Mariners</span></label><label class="chip" title="Plays in: A-League Men"><input type="checkbox" data-slug="football-macarthur-fc" data-name="Macarthur FC"><span>Macarthur FC</span></label><label class="chip" title="Plays in: A-League Men"><input type="checkbox" data-slug="football-melbourne-city-fc" data-name="Melbourne City FC"><span>Melbourne City FC</span></label><label class="chip" title="Plays in: A-League Men, AFC Champions League Two"><input type="checkbox" data-slug="football-melbourne-victory" data-name="Melbourne Victory"><span>Melbourne Victory</span></label><label class="chip" title="Plays in: A-League Men, AFC Champions League Elite"><input type="checkbox" data-slug="football-newcastle-jets" data-name="Newcastle Jets"><span>Newcastle Jets</span></label><label class="chip" title="Plays in: A-League Men"><input type="checkbox" data-slug="football-perth-glory" data-name="Perth Glory"><span>Perth Glory</span></label><label class="chip" title="Plays in: A-League Men"><input type="checkbox" data-slug="football-sydney-fc" data-name="Sydney FC"><span>Sydney FC</span></label><label class="chip" title="Plays in: A-League Men"><input type="checkbox" data-slug="football-wellington-phoenix-fc" data-name="Wellington Phoenix FC"><span>Wellington Phoenix FC</span></label><label class="chip" title="Plays in: A-League Men"><input type="checkbox" data-slug="football-western-sydney-wanderers" data-name="Western Sydney Wanderers"><span>Western Sydney Wanderers</span></label></div></div><div class="family"><h3>Women&#x27;s football</h3><div class="chips"><label class="chip" title="Plays in: A-League Women"><input type="checkbox" data-slug="football-women-adelaide-united" data-name="Adelaide United (Women&#x27;s football)"><span>Adelaide United</span></label><label class="chip" title="Plays in: A-League Women"><input type="checkbox" data-slug="football-women-brisbane-roar" data-name="Brisbane Roar (Women&#x27;s football)"><span>Brisbane Roar</span></label><label class="chip" title="Plays in: A-League Women"><input type="checkbox" data-slug="football-women-canberra-united" data-name="Canberra United"><span>Canberra United</span></label><label class="chip" title="Plays in: A-League Women"><input type="checkbox" data-slug="football-women-central-coast-mariners" data-name="Central Coast Mariners (Women&#x27;s football)"><span>Central Coast Mariners</span></label><label class="chip" title="Plays in: A-League Women"><input type="checkbox" data-slug="football-women-melbourne-city" data-name="Melbourne City"><span>Melbourne City</span></label><label class="chip" title="Plays in: A-League Women"><input type="checkbox" data-slug="football-women-melbourne-victory" data-name="Melbourne Victory (Women&#x27;s football)"><span>Melbourne Victory</span></label><label class="chip" title="Plays in: A-League Women"><input type="checkbox" data-slug="football-women-newcastle-jets" data-name="Newcastle Jets (Women&#x27;s football)"><span>Newcastle Jets</span></label><label class="chip" title="Plays in: A-League Women"><input type="checkbox" data-slug="football-women-perth-glory" data-name="Perth Glory (Women&#x27;s football)"><span>Perth Glory</span></label><label class="chip" title="Plays in: A-League Women"><input type="checkbox" data-slug="football-women-sydney-fc" data-name="Sydney FC (Women&#x27;s football)"><span>Sydney FC</span></label><label class="chip" title="Plays in: A-League Women"><input type="checkbox" data-slug="football-women-wellington-phoenix" data-name="Wellington Phoenix"><span>Wellington Phoenix</span></label><label class="chip" title="Plays in: A-League Women"><input type="checkbox" data-slug="football-women-western-sydney" data-name="Western Sydney"><span>Western Sydney</span></label></div></div><div class="family"><h3>Rugby league</h3><div class="chips"><label class="chip" title="Plays in: Rugby League World Cup"><input type="checkbox" data-slug="league-australia" data-name="Australia"><span>Australia</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-broncos" data-name="Broncos"><span>Broncos</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-bulldogs" data-name="Bulldogs"><span>Bulldogs</span></label><label class="chip" title="Plays in: Rugby League World Cup"><input type="checkbox" data-slug="league-cook-islands" data-name="Cook Islands"><span>Cook Islands</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-cowboys" data-name="Cowboys"><span>Cowboys</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-dolphins" data-name="Dolphins"><span>Dolphins</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-dragons" data-name="Dragons"><span>Dragons</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-eels" data-name="Eels"><span>Eels</span></label><label class="chip" title="Plays in: Rugby League World Cup"><input type="checkbox" data-slug="league-england" data-name="England"><span>England</span></label><label class="chip" title="Plays in: Rugby League World Cup"><input type="checkbox" data-slug="league-fiji" data-name="Fiji"><span>Fiji</span></label><label class="chip" title="Plays in: Rugby League World Cup"><input type="checkbox" data-slug="league-france" data-name="France"><span>France</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-knights" data-name="Knights"><span>Knights</span></label><label class="chip" title="Plays in: Rugby League World Cup"><input type="checkbox" data-slug="league-lebanon" data-name="Lebanon"><span>Lebanon</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-new-south-wales" data-name="New South Wales"><span>New South Wales</span></label><label class="chip" title="Plays in: Rugby League World Cup"><input type="checkbox" data-slug="league-new-zealand" data-name="New Zealand"><span>New Zealand</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-panthers" data-name="Panthers"><span>Panthers</span></label><label class="chip" title="Plays in: Rugby League World Cup"><input type="checkbox" data-slug="league-papua-new-guinea" data-name="Papua New Guinea"><span>Papua New Guinea</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-queensland" data-name="Queensland"><span>Queensland</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-rabbitohs" data-name="Rabbitohs"><span>Rabbitohs</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-raiders" data-name="Raiders"><span>Raiders</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-roosters" data-name="Roosters"><span>Roosters</span></label><label class="chip" title="Plays in: Rugby League World Cup"><input type="checkbox" data-slug="league-samoa" data-name="Samoa"><span>Samoa</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-sea-eagles" data-name="Sea Eagles"><span>Sea Eagles</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-sharks" data-name="Sharks"><span>Sharks</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-storm" data-name="Storm"><span>Storm</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-titans" data-name="Titans"><span>Titans</span></label><label class="chip" title="Plays in: Rugby League World Cup"><input type="checkbox" data-slug="league-tonga-xiii" data-name="Tonga XIII"><span>Tonga XIII</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-warriors" data-name="Warriors"><span>Warriors</span></label><label class="chip" title="Plays in: NRL"><input type="checkbox" data-slug="league-wests-tigers" data-name="Wests Tigers"><span>Wests Tigers</span></label></div></div><div class="family"><h3>AFL</h3><div class="chips"><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-adelaide-crows" data-name="Adelaide Crows"><span>Adelaide Crows</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-brisbane-lions" data-name="Brisbane Lions"><span>Brisbane Lions</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-carlton" data-name="Carlton"><span>Carlton</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-collingwood" data-name="Collingwood"><span>Collingwood</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-essendon" data-name="Essendon"><span>Essendon</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-fremantle" data-name="Fremantle"><span>Fremantle</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-geelong-cats" data-name="Geelong Cats"><span>Geelong Cats</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-gold-coast-suns" data-name="Gold Coast SUNS"><span>Gold Coast SUNS</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-gws-giants" data-name="GWS GIANTS"><span>GWS GIANTS</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-hawthorn" data-name="Hawthorn"><span>Hawthorn</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-melbourne" data-name="Melbourne"><span>Melbourne</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-north-melbourne" data-name="North Melbourne"><span>North Melbourne</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-port-adelaide" data-name="Port Adelaide"><span>Port Adelaide</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-richmond" data-name="Richmond"><span>Richmond</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-st-kilda" data-name="St Kilda"><span>St Kilda</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-sydney-swans" data-name="Sydney Swans"><span>Sydney Swans</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-west-coast-eagles" data-name="West Coast Eagles"><span>West Coast Eagles</span></label><label class="chip" title="Plays in: AFL"><input type="checkbox" data-slug="afl-western-bulldogs" data-name="Western Bulldogs"><span>Western Bulldogs</span></label></div></div>
+  <p class="none" hidden>No team by that name.</p>
+</section>
 
   <section class="how">
     <div>
@@ -329,7 +373,7 @@ document.querySelectorAll("time[data-local]").forEach(function (t) {
 });
 // Pick-your-own: one calendar for every ticked card, served by the mix worker.
 var MIX = "https://cal.footydraw.com";
-var picks = Array.prototype.slice.call(document.querySelectorAll(".pick input"));
+var picks = Array.prototype.slice.call(document.querySelectorAll(".pick input, .chip input"));
 function updateMix() {
   var on = picks.filter(function (p) { return p.checked; });
   var bar = document.querySelector(".mixbar");
@@ -345,6 +389,19 @@ function updateMix() {
 }
 picks.forEach(function (p) { p.addEventListener("change", updateMix); });
 updateMix();  // browsers can restore ticks on back/forward
+var find = document.querySelector(".find");
+if (find) find.addEventListener("input", function () {
+  var q = find.value.trim().toLowerCase(), shown = 0;
+  document.querySelectorAll(".family").forEach(function (fam) {
+    var any = false;
+    fam.querySelectorAll(".chip").forEach(function (c) {
+      var hit = !q || c.textContent.toLowerCase().indexOf(q) !== -1;
+      c.hidden = !hit; any = any || hit; if (hit) shown++;
+    });
+    fam.hidden = !any;
+  });
+  document.querySelector(".teams .none").hidden = shown > 0;
+});
 document.querySelectorAll("button.copy").forEach(function (b) {
   b.addEventListener("click", function () {
     var label = b.textContent;

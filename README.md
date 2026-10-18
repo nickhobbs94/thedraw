@@ -17,8 +17,9 @@ calendar changes too. Matches drop off a week after they've been played.
 | Rugby League World Cup | `https://footydraw.com/calendars/rlwc.ics` | 18 |
 | Socceroos | `https://footydraw.com/calendars/socceroos.ics` | 5 |
 | Matildas | `https://footydraw.com/calendars/matildas.ics` | 3 |
-| A-League clubs in Asia | `https://footydraw.com/calendars/a-league-in-asia.ics` | 17 |
-| Footy Draw | `https://footydraw.com/calendars/all.ics` | 309 |
+| AFC Champions League Elite | `https://footydraw.com/calendars/acl-elite.ics` | 112 |
+| AFC Champions League Two | `https://footydraw.com/calendars/acl-two.ics` | 80 |
+| Footy Draw | `https://footydraw.com/calendars/all.ics` | 484 |
 <!-- FEEDS:END -->
 
 **Footy Draw** has every match from the other calendars in one, with the league in

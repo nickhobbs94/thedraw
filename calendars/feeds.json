@@ -43,10 +43,651 @@
    "emoji": "⚽"
   },
   {
-   "slug": "a-league-in-asia",
-   "name": "A-League clubs in Asia",
+   "slug": "acl-elite",
+   "name": "AFC Champions League Elite",
    "group": "Football",
    "emoji": "⚽"
+  },
+  {
+   "slug": "acl-two",
+   "name": "AFC Champions League Two",
+   "group": "Football",
+   "emoji": "⚽"
+  }
+ ],
+ "teams": [
+  {
+   "slug": "football-adelaide-united",
+   "name": "Adelaide United",
+   "short": "Adelaide United",
+   "family": "football",
+   "competitions": [
+    "a-league-men",
+    "acl-two"
+   ]
+  },
+  {
+   "slug": "football-auckland-fc",
+   "name": "Auckland FC",
+   "short": "Auckland FC",
+   "family": "football",
+   "competitions": [
+    "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-brisbane-roar",
+   "name": "Brisbane Roar",
+   "short": "Brisbane Roar",
+   "family": "football",
+   "competitions": [
+    "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-central-coast-mariners",
+   "name": "Central Coast Mariners",
+   "short": "Central Coast Mariners",
+   "family": "football",
+   "competitions": [
+    "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-macarthur-fc",
+   "name": "Macarthur FC",
+   "short": "Macarthur FC",
+   "family": "football",
+   "competitions": [
+    "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-melbourne-city-fc",
+   "name": "Melbourne City FC",
+   "short": "Melbourne City FC",
+   "family": "football",
+   "competitions": [
+    "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-melbourne-victory",
+   "name": "Melbourne Victory",
+   "short": "Melbourne Victory",
+   "family": "football",
+   "competitions": [
+    "a-league-men",
+    "acl-two"
+   ]
+  },
+  {
+   "slug": "football-newcastle-jets",
+   "name": "Newcastle Jets",
+   "short": "Newcastle Jets",
+   "family": "football",
+   "competitions": [
+    "a-league-men",
+    "acl-elite"
+   ]
+  },
+  {
+   "slug": "football-perth-glory",
+   "name": "Perth Glory",
+   "short": "Perth Glory",
+   "family": "football",
+   "competitions": [
+    "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-sydney-fc",
+   "name": "Sydney FC",
+   "short": "Sydney FC",
+   "family": "football",
+   "competitions": [
+    "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-wellington-phoenix-fc",
+   "name": "Wellington Phoenix FC",
+   "short": "Wellington Phoenix FC",
+   "family": "football",
+   "competitions": [
+    "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-western-sydney-wanderers",
+   "name": "Western Sydney Wanderers",
+   "short": "Western Sydney Wanderers",
+   "family": "football",
+   "competitions": [
+    "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-women-adelaide-united",
+   "name": "Adelaide United (Women's football)",
+   "short": "Adelaide United",
+   "family": "football-women",
+   "competitions": [
+    "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-brisbane-roar",
+   "name": "Brisbane Roar (Women's football)",
+   "short": "Brisbane Roar",
+   "family": "football-women",
+   "competitions": [
+    "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-canberra-united",
+   "name": "Canberra United",
+   "short": "Canberra United",
+   "family": "football-women",
+   "competitions": [
+    "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-central-coast-mariners",
+   "name": "Central Coast Mariners (Women's football)",
+   "short": "Central Coast Mariners",
+   "family": "football-women",
+   "competitions": [
+    "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-melbourne-city",
+   "name": "Melbourne City",
+   "short": "Melbourne City",
+   "family": "football-women",
+   "competitions": [
+    "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-melbourne-victory",
+   "name": "Melbourne Victory (Women's football)",
+   "short": "Melbourne Victory",
+   "family": "football-women",
+   "competitions": [
+    "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-newcastle-jets",
+   "name": "Newcastle Jets (Women's football)",
+   "short": "Newcastle Jets",
+   "family": "football-women",
+   "competitions": [
+    "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-perth-glory",
+   "name": "Perth Glory (Women's football)",
+   "short": "Perth Glory",
+   "family": "football-women",
+   "competitions": [
+    "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-sydney-fc",
+   "name": "Sydney FC (Women's football)",
+   "short": "Sydney FC",
+   "family": "football-women",
+   "competitions": [
+    "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-wellington-phoenix",
+   "name": "Wellington Phoenix",
+   "short": "Wellington Phoenix",
+   "family": "football-women",
+   "competitions": [
+    "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-western-sydney",
+   "name": "Western Sydney",
+   "short": "Western Sydney",
+   "family": "football-women",
+   "competitions": [
+    "a-league-women"
+   ]
+  },
+  {
+   "slug": "league-australia",
+   "name": "Australia",
+   "short": "Australia",
+   "family": "league",
+   "competitions": [
+    "rlwc"
+   ]
+  },
+  {
+   "slug": "league-broncos",
+   "name": "Broncos",
+   "short": "Broncos",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-bulldogs",
+   "name": "Bulldogs",
+   "short": "Bulldogs",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-cook-islands",
+   "name": "Cook Islands",
+   "short": "Cook Islands",
+   "family": "league",
+   "competitions": [
+    "rlwc"
+   ]
+  },
+  {
+   "slug": "league-cowboys",
+   "name": "Cowboys",
+   "short": "Cowboys",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-dolphins",
+   "name": "Dolphins",
+   "short": "Dolphins",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-dragons",
+   "name": "Dragons",
+   "short": "Dragons",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-eels",
+   "name": "Eels",
+   "short": "Eels",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-england",
+   "name": "England",
+   "short": "England",
+   "family": "league",
+   "competitions": [
+    "rlwc"
+   ]
+  },
+  {
+   "slug": "league-fiji",
+   "name": "Fiji",
+   "short": "Fiji",
+   "family": "league",
+   "competitions": [
+    "rlwc"
+   ]
+  },
+  {
+   "slug": "league-france",
+   "name": "France",
+   "short": "France",
+   "family": "league",
+   "competitions": [
+    "rlwc"
+   ]
+  },
+  {
+   "slug": "league-knights",
+   "name": "Knights",
+   "short": "Knights",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-lebanon",
+   "name": "Lebanon",
+   "short": "Lebanon",
+   "family": "league",
+   "competitions": [
+    "rlwc"
+   ]
+  },
+  {
+   "slug": "league-new-south-wales",
+   "name": "New South Wales",
+   "short": "New South Wales",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-new-zealand",
+   "name": "New Zealand",
+   "short": "New Zealand",
+   "family": "league",
+   "competitions": [
+    "rlwc"
+   ]
+  },
+  {
+   "slug": "league-panthers",
+   "name": "Panthers",
+   "short": "Panthers",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-papua-new-guinea",
+   "name": "Papua New Guinea",
+   "short": "Papua New Guinea",
+   "family": "league",
+   "competitions": [
+    "rlwc"
+   ]
+  },
+  {
+   "slug": "league-queensland",
+   "name": "Queensland",
+   "short": "Queensland",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-rabbitohs",
+   "name": "Rabbitohs",
+   "short": "Rabbitohs",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-raiders",
+   "name": "Raiders",
+   "short": "Raiders",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-roosters",
+   "name": "Roosters",
+   "short": "Roosters",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-samoa",
+   "name": "Samoa",
+   "short": "Samoa",
+   "family": "league",
+   "competitions": [
+    "rlwc"
+   ]
+  },
+  {
+   "slug": "league-sea-eagles",
+   "name": "Sea Eagles",
+   "short": "Sea Eagles",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-sharks",
+   "name": "Sharks",
+   "short": "Sharks",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-storm",
+   "name": "Storm",
+   "short": "Storm",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-titans",
+   "name": "Titans",
+   "short": "Titans",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-tonga-xiii",
+   "name": "Tonga XIII",
+   "short": "Tonga XIII",
+   "family": "league",
+   "competitions": [
+    "rlwc"
+   ]
+  },
+  {
+   "slug": "league-warriors",
+   "name": "Warriors",
+   "short": "Warriors",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "league-wests-tigers",
+   "name": "Wests Tigers",
+   "short": "Wests Tigers",
+   "family": "league",
+   "competitions": [
+    "nrl"
+   ]
+  },
+  {
+   "slug": "afl-adelaide-crows",
+   "name": "Adelaide Crows",
+   "short": "Adelaide Crows",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-brisbane-lions",
+   "name": "Brisbane Lions",
+   "short": "Brisbane Lions",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-carlton",
+   "name": "Carlton",
+   "short": "Carlton",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-collingwood",
+   "name": "Collingwood",
+   "short": "Collingwood",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-essendon",
+   "name": "Essendon",
+   "short": "Essendon",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-fremantle",
+   "name": "Fremantle",
+   "short": "Fremantle",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-geelong-cats",
+   "name": "Geelong Cats",
+   "short": "Geelong Cats",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-gold-coast-suns",
+   "name": "Gold Coast SUNS",
+   "short": "Gold Coast SUNS",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-gws-giants",
+   "name": "GWS GIANTS",
+   "short": "GWS GIANTS",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-hawthorn",
+   "name": "Hawthorn",
+   "short": "Hawthorn",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-melbourne",
+   "name": "Melbourne",
+   "short": "Melbourne",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-north-melbourne",
+   "name": "North Melbourne",
+   "short": "North Melbourne",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-port-adelaide",
+   "name": "Port Adelaide",
+   "short": "Port Adelaide",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-richmond",
+   "name": "Richmond",
+   "short": "Richmond",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-st-kilda",
+   "name": "St Kilda",
+   "short": "St Kilda",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-sydney-swans",
+   "name": "Sydney Swans",
+   "short": "Sydney Swans",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-west-coast-eagles",
+   "name": "West Coast Eagles",
+   "short": "West Coast Eagles",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
+  },
+  {
+   "slug": "afl-western-bulldogs",
+   "name": "Western Bulldogs",
+   "short": "Western Bulldogs",
+   "family": "afl",
+   "competitions": [
+    "afl"
+   ]
   }
  ]
 }
