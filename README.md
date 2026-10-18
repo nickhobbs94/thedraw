@@ -1,7 +1,7 @@
 # The Draw
 
-Upcoming A-League, NRL, AFL and Rugby League World Cup fixtures as calendars you can
-subscribe to. Every match is in your calendar with its kick-off time in your own
+Upcoming fixtures you can subscribe to: the A-League, NRL and AFL, the Socceroos and
+Matildas, A-League clubs in Asian competitions, and the Rugby League World Cup. Every match is in your calendar with its kick-off time in your own
 timezone, and it stays up to date: when a match moves for TV or gets postponed, your
 calendar changes too. Matches drop off a week after they've been played.
 
@@ -15,7 +15,10 @@ calendar changes too. Matches drop off a week after they've been played.
 | NRL | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/nrl.ics` | 0 |
 | AFL | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/afl.ics` | 0 |
 | Rugby League World Cup | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/rlwc.ics` | 18 |
-| The Draw | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/all.ics` | 284 |
+| Socceroos | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/socceroos.ics` | 5 |
+| Matildas | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/matildas.ics` | 3 |
+| A-League clubs in Asia | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-in-asia.ics` | 17 |
+| The Draw | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/all.ics` | 309 |
 <!-- FEEDS:END -->
 
 **The Draw** has every match from the other calendars in one, with the league in
