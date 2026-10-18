@@ -1,6 +1,7 @@
 # The Draw
 
-Upcoming A-League, NRL and AFL fixtures as calendars you can subscribe to. Every match is in your calendar with its kick-off time in your own
+Upcoming A-League, NRL, AFL and Rugby League World Cup fixtures as calendars you can
+subscribe to. Every match is in your calendar with its kick-off time in your own
 timezone, and it stays up to date: when a match moves for TV or gets postponed, your
 calendar changes too. Matches drop off a week after they've been played.
 
