@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Footy Draw</title>
+<meta name="description" content="Free calendars for the A-League, NRL, AFL, Socceroos, Matildas and more. Subscribe once and kick-off times stay up to date.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📅</text></svg>">
+<style>
+:root {
+  --bg: #f6f7f4; --surface: #ffffff; --text: #17201b; --muted: #5b665f;
+  --line: #dfe3dc; --accent: #0f6b45; --accent-text: #ffffff; --accent-soft: #e3f1e9;
+  --shadow: 0 1px 2px rgb(0 0 0 / .05), 0 4px 16px rgb(0 0 0 / .04);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1411; --surface: #171e1a; --text: #e8eee9; --muted: #9aa69e;
+    --line: #29332d; --accent: #3ccf8e; --accent-text: #08140e; --accent-soft: #173326;
+    --shadow: none;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1411; --surface: #171e1a; --text: #e8eee9; --muted: #9aa69e;
+  --line: #29332d; --accent: #3ccf8e; --accent-text: #08140e; --accent-soft: #173326;
+  --shadow: none;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+.top { display: flex; align-items: center; justify-content: space-between; padding: 20px 0; }
+.brand { font-weight: 800; font-size: 1.15rem; letter-spacing: -.01em; color: var(--text); text-decoration: none; }
+.gh { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); text-decoration: none; font-size: .95rem; }
+.gh:hover { color: var(--text); }
+.gh svg { width: 20px; height: 20px; fill: currentColor; }
+.intro { padding: 28px 0 32px; max-width: 640px; }
+.intro h1 { font-size: clamp(2rem, 5vw, 2.9rem); line-height: 1.08; letter-spacing: -.03em; margin: 0 0 14px; }
+.intro p { color: var(--muted); font-size: 1.1rem; margin: 0; }
+h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 40px 0 14px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+  padding: 18px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 12px;
+}
+.card header { display: flex; align-items: center; gap: 10px; }
+.card h3 { margin: 0; font-size: 1.1rem; letter-spacing: -.01em; }
+.emoji { font-size: 1.4rem; line-height: 1; }
+.count { margin-left: auto; font-size: .8rem; color: var(--muted); white-space: nowrap; }
+.blurb { margin: 0; color: var(--muted); font-size: .95rem; }
+.next { margin: 0; display: grid; gap: 2px; padding: 12px; border-radius: 10px; background: var(--bg); font-size: .95rem; }
+.next.empty { color: var(--muted); }
+.kicker { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); font-weight: 700; }
+.match { font-weight: 600; }
+.when, .where { color: var(--muted); font-size: .88rem; }
+.actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: auto; }
+.link { display: flex; border: 1px solid var(--line); border-radius: 9px; overflow: hidden; background: var(--bg); }
+.link input {
+  flex: 1; min-width: 0; border: 0; background: transparent; color: var(--muted);
+  font: 12.5px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; padding: 9px 10px;
+}
+.link input:focus { outline: none; color: var(--text); }
+.link .copy {
+  border: 0; border-left: 1px solid var(--line); background: var(--surface); color: var(--text);
+  font: inherit; font-size: .85rem; font-weight: 600; padding: 0 14px; cursor: pointer;
+}
+.link .copy:hover { color: var(--accent); }
+.link .copy:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.btn {
+  appearance: none; border: 1px solid var(--line); background: var(--surface); color: var(--text);
+  font: inherit; font-size: .9rem; font-weight: 600; padding: 9px 10px; border-radius: 9px;
+  text-decoration: none; cursor: pointer; line-height: 1.2; text-align: center; white-space: nowrap;
+}
+.btn:hover { border-color: var(--muted); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-text); }
+.btn.primary:hover { filter: brightness(1.08); }
+.btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.featured { border-color: var(--accent); background: linear-gradient(var(--accent-soft), var(--surface) 70%); padding: 22px; }
+.featured h3 { font-size: 1.35rem; }
+.featured .actions, .featured .link { max-width: 520px; width: 100%; }
+.how { margin: 48px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+.how h3 { margin: 0 0 6px; font-size: 1rem; }
+.how p, .how li { color: var(--muted); font-size: .95rem; margin: 0; }
+.how ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+footer.site { margin: 56px 0 0; padding: 24px 0 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; display: flex; flex-wrap: wrap; gap: 8px 20px; }
+footer.site a { color: inherit; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top">
+    <a class="brand" href="/">📅 Footy Draw</a>
+    <a class="gh" href="https://github.com/nickhobbs94/thedraw">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      GitHub
+    </a>
+  </nav>
+
+  <div class="intro">
+    <h1>Every kick-off, in your calendar.</h1>
+    <p>Free calendars for the A-League, NRL, AFL, Socceroos, Matildas and more. Subscribe once and they stay up to date when matches move or get postponed.</p>
+  </div>
+
+  <article class="card featured">
+  <header>
+    <span class="emoji" aria-hidden="true">📅</span>
+    <h3>Footy Draw</h3>
+    <span class="count">309 matches</span>
+  </header>
+  <p class="blurb">Every match from every calendar here, tagged by competition.</p>
+  <p class="next"><span class="kicker">Next</span><span class="match">⚽ ALM · Wellington Phoenix FC v Melbourne Victory</span><span class="when"><time datetime="2026-10-18T02:00:00Z" data-local>Sun 18 Oct, 1:00 pm AEDT</time></span><span class="where">Sky Stadium, Wellington</span></p>
+  <div class="actions">
+    <a class="btn primary" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fraw.githubusercontent.com%2Fnickhobbs94%2Fthedraw%2Fmain%2Fcalendars%2Fall.ics" target="_blank" rel="noopener">Add to Google</a>
+    <a class="btn" href="webcal://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/all.ics">Apple / Outlook</a>
+  </div>
+  <div class="link">
+    <input type="text" readonly value="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/all.ics" aria-label="Footy Draw calendar link" onfocus="this.select()">
+    <button class="copy" type="button" data-url="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/all.ics">Copy</button>
+  </div>
+</article>
+
+  <section><h2>Football</h2><div class="grid"><article class="card">
+  <header>
+    <span class="emoji" aria-hidden="true">⚽</span>
+    <h3>A-League Men</h3>
+    <span class="count">156 matches</span>
+  </header>
+  <p class="blurb">Every A-League Men match, regular season and finals.</p>
+  <p class="next"><span class="kicker">Next</span><span class="match">Wellington Phoenix FC v Melbourne Victory</span><span class="when"><time datetime="2026-10-18T02:00:00Z" data-local>Sun 18 Oct, 1:00 pm AEDT</time></span><span class="where">Sky Stadium, Wellington</span></p>
+  <div class="actions">
+    <a class="btn primary" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fraw.githubusercontent.com%2Fnickhobbs94%2Fthedraw%2Fmain%2Fcalendars%2Fa-league-men.ics" target="_blank" rel="noopener">Add to Google</a>
+    <a class="btn" href="webcal://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-men.ics">Apple / Outlook</a>
+  </div>
+  <div class="link">
+    <input type="text" readonly value="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-men.ics" aria-label="A-League Men calendar link" onfocus="this.select()">
+    <button class="copy" type="button" data-url="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-men.ics">Copy</button>
+  </div>
+</article>
+<article class="card">
+  <header>
+    <span class="emoji" aria-hidden="true">⚽</span>
+    <h3>A-League Women</h3>
+    <span class="count">110 matches</span>
+  </header>
+  <p class="blurb">Every A-League Women match, regular season and finals.</p>
+  <p class="next"><span class="kicker">Next</span><span class="match">Sydney FC v Adelaide United</span><span class="when"><time datetime="2026-10-18T05:30:00Z" data-local>Sun 18 Oct, 4:30 pm AEDT</time></span><span class="where">Sydney Olympic Park Athletic Centre</span></p>
+  <div class="actions">
+    <a class="btn primary" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fraw.githubusercontent.com%2Fnickhobbs94%2Fthedraw%2Fmain%2Fcalendars%2Fa-league-women.ics" target="_blank" rel="noopener">Add to Google</a>
+    <a class="btn" href="webcal://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-women.ics">Apple / Outlook</a>
+  </div>
+  <div class="link">
+    <input type="text" readonly value="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-women.ics" aria-label="A-League Women calendar link" onfocus="this.select()">
+    <button class="copy" type="button" data-url="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-women.ics">Copy</button>
+  </div>
+</article>
+<article class="card">
+  <header>
+    <span class="emoji" aria-hidden="true">⚽</span>
+    <h3>Socceroos</h3>
+    <span class="count">5 matches</span>
+  </header>
+  <p class="blurb">Australia&#x27;s men: friendlies, qualifiers, Asian Cup and World Cup.</p>
+  <p class="next"><span class="kicker">Next</span><span class="match">Qatar v Australia</span><span class="when"><time datetime="2026-11-13T14:45:00Z" data-local>Sat 14 Nov, 1:45 am AEDT</time></span><span class="where">Jassim Bin Hamad Stadium, Doha</span></p>
+  <div class="actions">
+    <a class="btn primary" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fraw.githubusercontent.com%2Fnickhobbs94%2Fthedraw%2Fmain%2Fcalendars%2Fsocceroos.ics" target="_blank" rel="noopener">Add to Google</a>
+    <a class="btn" href="webcal://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/socceroos.ics">Apple / Outlook</a>
+  </div>
+  <div class="link">
+    <input type="text" readonly value="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/socceroos.ics" aria-label="Socceroos calendar link" onfocus="this.select()">
+    <button class="copy" type="button" data-url="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/socceroos.ics">Copy</button>
+  </div>
+</article>
+<article class="card">
+  <header>
+    <span class="emoji" aria-hidden="true">⚽</span>
+    <h3>Matildas</h3>
+    <span class="count">3 matches</span>
+  </header>
+  <p class="blurb">Australia&#x27;s women: friendlies, Asian Cup, World Cup and Olympics.</p>
+  <p class="next"><span class="kicker">Next</span><span class="match">Australia v Colombia</span><span class="when"><time datetime="2026-11-28T08:35:00Z" data-local>Sat 28 Nov, 7:35 pm AEDT</time></span><span class="where">GIO Stadium, Canberra</span></p>
+  <div class="actions">
+    <a class="btn primary" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fraw.githubusercontent.com%2Fnickhobbs94%2Fthedraw%2Fmain%2Fcalendars%2Fmatildas.ics" target="_blank" rel="noopener">Add to Google</a>
+    <a class="btn" href="webcal://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/matildas.ics">Apple / Outlook</a>
+  </div>
+  <div class="link">
+    <input type="text" readonly value="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/matildas.ics" aria-label="Matildas calendar link" onfocus="this.select()">
+    <button class="copy" type="button" data-url="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/matildas.ics">Copy</button>
+  </div>
+</article>
+<article class="card">
+  <header>
+    <span class="emoji" aria-hidden="true">⚽</span>
+    <h3>A-League clubs in Asia</h3>
+    <span class="count">17 matches</span>
+  </header>
+  <p class="blurb">A-League clubs in the AFC Champions League Elite and Two.</p>
+  <p class="next"><span class="kicker">Next</span><span class="match">Kyoto Sanga v Newcastle Jets</span><span class="when"><time datetime="2026-10-27T10:00:00Z" data-local>Tue 27 Oct, 9:00 pm AEDT</time></span><span class="where">Sanga Stadium by Kyocera, Kyoto</span></p>
+  <div class="actions">
+    <a class="btn primary" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fraw.githubusercontent.com%2Fnickhobbs94%2Fthedraw%2Fmain%2Fcalendars%2Fa-league-in-asia.ics" target="_blank" rel="noopener">Add to Google</a>
+    <a class="btn" href="webcal://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-in-asia.ics">Apple / Outlook</a>
+  </div>
+  <div class="link">
+    <input type="text" readonly value="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-in-asia.ics" aria-label="A-League clubs in Asia calendar link" onfocus="this.select()">
+    <button class="copy" type="button" data-url="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-in-asia.ics">Copy</button>
+  </div>
+</article></div></section>
+<section><h2>Rugby league</h2><div class="grid"><article class="card">
+  <header>
+    <span class="emoji" aria-hidden="true">🏉</span>
+    <h3>NRL</h3>
+    <span class="count">0 matches</span>
+  </header>
+  <p class="blurb">Every NRL match, regular season and finals.</p>
+  <p class="next empty">Nothing scheduled right now. New matches appear here as soon as the draw is out.</p>
+  <div class="actions">
+    <a class="btn primary" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fraw.githubusercontent.com%2Fnickhobbs94%2Fthedraw%2Fmain%2Fcalendars%2Fnrl.ics" target="_blank" rel="noopener">Add to Google</a>
+    <a class="btn" href="webcal://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/nrl.ics">Apple / Outlook</a>
+  </div>
+  <div class="link">
+    <input type="text" readonly value="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/nrl.ics" aria-label="NRL calendar link" onfocus="this.select()">
+    <button class="copy" type="button" data-url="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/nrl.ics">Copy</button>
+  </div>
+</article>
+<article class="card">
+  <header>
+    <span class="emoji" aria-hidden="true">🏉</span>
+    <h3>Rugby League World Cup</h3>
+    <span class="count">18 matches</span>
+  </header>
+  <p class="blurb">The 2026 men&#x27;s Rugby League World Cup in Australia and PNG.</p>
+  <p class="next"><span class="kicker">Next</span><span class="match">Fiji v Cook Islands</span><span class="when"><time datetime="2026-10-18T05:05:00Z" data-local>Sun 18 Oct, 4:05 pm AEDT</time></span><span class="where">McDonald Jones Stadium</span></p>
+  <div class="actions">
+    <a class="btn primary" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fraw.githubusercontent.com%2Fnickhobbs94%2Fthedraw%2Fmain%2Fcalendars%2Frlwc.ics" target="_blank" rel="noopener">Add to Google</a>
+    <a class="btn" href="webcal://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/rlwc.ics">Apple / Outlook</a>
+  </div>
+  <div class="link">
+    <input type="text" readonly value="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/rlwc.ics" aria-label="Rugby League World Cup calendar link" onfocus="this.select()">
+    <button class="copy" type="button" data-url="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/rlwc.ics">Copy</button>
+  </div>
+</article></div></section>
+<section><h2>AFL</h2><div class="grid"><article class="card">
+  <header>
+    <span class="emoji" aria-hidden="true">🏈</span>
+    <h3>AFL</h3>
+    <span class="count">0 matches</span>
+  </header>
+  <p class="blurb">Every AFL match, regular season and finals.</p>
+  <p class="next empty">Nothing scheduled right now. New matches appear here as soon as the draw is out.</p>
+  <div class="actions">
+    <a class="btn primary" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fraw.githubusercontent.com%2Fnickhobbs94%2Fthedraw%2Fmain%2Fcalendars%2Fafl.ics" target="_blank" rel="noopener">Add to Google</a>
+    <a class="btn" href="webcal://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/afl.ics">Apple / Outlook</a>
+  </div>
+  <div class="link">
+    <input type="text" readonly value="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/afl.ics" aria-label="AFL calendar link" onfocus="this.select()">
+    <button class="copy" type="button" data-url="https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/afl.ics">Copy</button>
+  </div>
+</article></div></section>
+
+  <section class="how">
+    <div>
+      <h3>Subscribe, don't download</h3>
+      <p>The buttons add a subscription, so changes reach your calendar on their own. A downloaded file is a one-off copy that never updates.</p>
+    </div>
+    <div>
+      <h3>Doing it by hand</h3>
+      <ul>
+        <li><strong>Google:</strong> Other calendars → + → From URL, and paste the link.</li>
+        <li><strong>iPhone:</strong> Settings → Apps → Calendar → Calendar Accounts → Add Account → Other → Add Subscribed Calendar.</li>
+        <li><strong>Outlook:</strong> Add calendar → Subscribe from web.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>How fresh is it?</h3>
+      <p>Calendars are rebuilt every 6 hours. Each app checks on its own schedule: Apple lets you choose, Google can take up to a day.</p>
+    </div>
+  </section>
+
+  <footer class="site">
+    <span>Footy Draw</span>
+    <a href="https://github.com/nickhobbs94/thedraw">Calendars on GitHub</a>
+  </footer>
+</div>
+<script>
+// Show kick-offs in the visitor's own timezone.
+document.querySelectorAll("time[data-local]").forEach(function (t) {
+  try {
+    var d = new Date(t.getAttribute("datetime"));
+    t.textContent = d.toLocaleString(undefined, {
+      weekday: "short", day: "numeric", month: "short", hour: "numeric", minute: "2-digit", timeZoneName: "short"
+    });
+  } catch (e) {}
+});
+document.querySelectorAll("button.copy").forEach(function (b) {
+  b.addEventListener("click", function () {
+    var done = function () { b.textContent = "Copied"; setTimeout(function () { b.textContent = "Copy"; }, 1600); };
+    if (navigator.clipboard) navigator.clipboard.writeText(b.dataset.url).then(done, function () { prompt("Copy this link:", b.dataset.url); });
+    else prompt("Copy this link:", b.dataset.url);
+  });
+});
+</script>
+</body>
+</html>
