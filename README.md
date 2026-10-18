@@ -13,7 +13,8 @@ calendar changes too. Matches drop off a week after they've been played.
 | A-League Women | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-women.ics` | 110 |
 | NRL | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/nrl.ics` | 0 |
 | AFL | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/afl.ics` | 0 |
-| The Draw | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/all.ics` | 266 |
+| Rugby League World Cup | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/rlwc.ics` | 18 |
+| The Draw | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/all.ics` | 284 |
 <!-- FEEDS:END -->
 
 **The Draw** has every match from the other calendars in one, with the league in
