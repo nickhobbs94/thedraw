@@ -18,8 +18,8 @@ Each competition also has its own calendar:
 | Calendar | Subscribe URL | Matches |
 |---|---|---|
 | A-League Men | `https://footydraw.com/calendars/a-league-men.ics` | 154 |
-| Premier League | `https://footydraw.com/calendars/premier-league.ics` | 324 |
-| Scottish Premiership | `https://footydraw.com/calendars/scottish-premiership.ics` | 150 |
+| Premier League | `https://footydraw.com/calendars/premier-league.ics` | 321 |
+| Scottish Premiership | `https://footydraw.com/calendars/scottish-premiership.ics` | 149 |
 | UEFA Champions League | `https://footydraw.com/calendars/uefa-champions-league.ics` | 126 |
 | UEFA Europa League | `https://footydraw.com/calendars/uefa-europa-league.ics` | 126 |
 | UEFA Conference League | `https://footydraw.com/calendars/uefa-conference-league.ics` | 108 |
@@ -50,7 +50,7 @@ Each competition also has its own calendar:
 | Copa América Femenina | `https://footydraw.com/calendars/copa-america-femenina.ics` | 0 |
 | Women's Africa Cup of Nations | `https://footydraw.com/calendars/wafcon.ics` | 0 |
 | Olympic women's football | `https://footydraw.com/calendars/olympics-women.ics` | 0 |
-| Women's international friendlies | `https://footydraw.com/calendars/womens-friendlies.ics` | 30 |
+| Women's international friendlies | `https://footydraw.com/calendars/womens-friendlies.ics` | 29 |
 | NRL | `https://footydraw.com/calendars/nrl.ics` | 0 |
 | Rugby League World Cup | `https://footydraw.com/calendars/rlwc.ics` | 18 |
 | AFL | `https://footydraw.com/calendars/afl.ics` | 0 |
