@@ -1,4 +1,4 @@
-# The Draw
+# Footy Draw
 
 Upcoming fixtures you can subscribe to: the A-League, NRL and AFL, the Socceroos and
 Matildas, A-League clubs in Asian competitions, and the Rugby League World Cup. Every match is in your calendar with its kick-off time in your own
@@ -18,10 +18,10 @@ calendar changes too. Matches drop off a week after they've been played.
 | Socceroos | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/socceroos.ics` | 5 |
 | Matildas | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/matildas.ics` | 3 |
 | A-League clubs in Asia | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-in-asia.ics` | 17 |
-| The Draw | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/all.ics` | 309 |
+| Footy Draw | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/all.ics` | 309 |
 <!-- FEEDS:END -->
 
-**The Draw** has every match from the other calendars in one, with the league in
+**Footy Draw** has every match from the other calendars in one, with the league in
 each title (e.g. `⚽ ALW · Sydney FC v Adelaide United`) so you can tell them
 apart.
 
