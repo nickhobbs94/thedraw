@@ -10,15 +10,15 @@ calendar changes too. Matches drop off a week after they've been played.
 <!-- FEEDS:START -->
 | Calendar | Subscribe URL | Matches |
 |---|---|---|
-| A-League Men | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-men.ics` | 156 |
-| A-League Women | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-women.ics` | 110 |
-| NRL | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/nrl.ics` | 0 |
-| AFL | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/afl.ics` | 0 |
-| Rugby League World Cup | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/rlwc.ics` | 18 |
-| Socceroos | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/socceroos.ics` | 5 |
-| Matildas | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/matildas.ics` | 3 |
-| A-League clubs in Asia | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/a-league-in-asia.ics` | 17 |
-| Footy Draw | `https://raw.githubusercontent.com/nickhobbs94/thedraw/main/calendars/all.ics` | 309 |
+| A-League Men | `https://footydraw.com/calendars/a-league-men.ics` | 156 |
+| A-League Women | `https://footydraw.com/calendars/a-league-women.ics` | 110 |
+| NRL | `https://footydraw.com/calendars/nrl.ics` | 0 |
+| AFL | `https://footydraw.com/calendars/afl.ics` | 0 |
+| Rugby League World Cup | `https://footydraw.com/calendars/rlwc.ics` | 18 |
+| Socceroos | `https://footydraw.com/calendars/socceroos.ics` | 5 |
+| Matildas | `https://footydraw.com/calendars/matildas.ics` | 3 |
+| A-League clubs in Asia | `https://footydraw.com/calendars/a-league-in-asia.ics` | 17 |
+| Footy Draw | `https://footydraw.com/calendars/all.ics` | 309 |
 <!-- FEEDS:END -->
 
 **Footy Draw** has every match from the other calendars in one, with the league in
