@@ -1,0 +1,52 @@
+{
+ "feeds": [
+  {
+   "slug": "a-league-men",
+   "name": "A-League Men",
+   "group": "Football",
+   "emoji": "⚽"
+  },
+  {
+   "slug": "a-league-women",
+   "name": "A-League Women",
+   "group": "Football",
+   "emoji": "⚽"
+  },
+  {
+   "slug": "nrl",
+   "name": "NRL",
+   "group": "Rugby league",
+   "emoji": "🏉"
+  },
+  {
+   "slug": "afl",
+   "name": "AFL",
+   "group": "AFL",
+   "emoji": "🏈"
+  },
+  {
+   "slug": "rlwc",
+   "name": "Rugby League World Cup",
+   "group": "Rugby league",
+   "emoji": "🏉"
+  },
+  {
+   "slug": "socceroos",
+   "name": "Socceroos",
+   "group": "Football",
+   "emoji": "⚽"
+  },
+  {
+   "slug": "matildas",
+   "name": "Matildas",
+   "group": "Football",
+   "emoji": "⚽"
+  },
+  {
+   "slug": "a-league-in-asia",
+   "name": "A-League clubs in Asia",
+   "group": "Football",
+   "emoji": "⚽"
+  }
+ ]
+}
