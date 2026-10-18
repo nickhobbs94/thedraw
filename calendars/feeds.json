@@ -3,67 +3,428 @@
   {
    "slug": "a-league-men",
    "name": "A-League Men",
-   "group": "Football",
-   "emoji": "⚽"
+   "family": "football",
+   "whole": true
   },
   {
-   "slug": "a-league-women",
-   "name": "A-League Women",
-   "group": "Football",
-   "emoji": "⚽"
+   "slug": "premier-league",
+   "name": "Premier League",
+   "family": "football",
+   "whole": true
   },
   {
-   "slug": "nrl",
-   "name": "NRL",
-   "group": "Rugby league",
-   "emoji": "🏉"
+   "slug": "scottish-premiership",
+   "name": "Scottish Premiership",
+   "family": "football",
+   "whole": true
   },
   {
-   "slug": "afl",
-   "name": "AFL",
-   "group": "AFL",
-   "emoji": "🏈"
+   "slug": "uefa-champions-league",
+   "name": "UEFA Champions League",
+   "family": "football",
+   "whole": true
   },
   {
-   "slug": "rlwc",
-   "name": "Rugby League World Cup",
-   "group": "Rugby league",
-   "emoji": "🏉"
+   "slug": "uefa-europa-league",
+   "name": "UEFA Europa League",
+   "family": "football",
+   "whole": true
   },
   {
-   "slug": "socceroos",
-   "name": "Socceroos",
-   "group": "Football",
-   "emoji": "⚽"
-  },
-  {
-   "slug": "matildas",
-   "name": "Matildas",
-   "group": "Football",
-   "emoji": "⚽"
+   "slug": "uefa-conference-league",
+   "name": "UEFA Conference League",
+   "family": "football",
+   "whole": true
   },
   {
    "slug": "acl-elite",
    "name": "AFC Champions League Elite",
-   "group": "Football",
-   "emoji": "⚽"
+   "family": "football",
+   "whole": true
   },
   {
    "slug": "acl-two",
    "name": "AFC Champions League Two",
-   "group": "Football",
-   "emoji": "⚽"
+   "family": "football",
+   "whole": true
+  },
+  {
+   "slug": "fa-cup",
+   "name": "FA Cup",
+   "family": "football",
+   "whole": false
+  },
+  {
+   "slug": "efl-cup",
+   "name": "EFL Cup",
+   "family": "football",
+   "whole": false
+  },
+  {
+   "slug": "community-shield",
+   "name": "Community Shield",
+   "family": "football",
+   "whole": false
+  },
+  {
+   "slug": "uefa-super-cup",
+   "name": "UEFA Super Cup",
+   "family": "football",
+   "whole": false
+  },
+  {
+   "slug": "scottish-cup",
+   "name": "Scottish Cup",
+   "family": "football",
+   "whole": false
+  },
+  {
+   "slug": "scottish-league-cup",
+   "name": "Scottish League Cup",
+   "family": "football",
+   "whole": false
+  },
+  {
+   "slug": "fifa-world-cup",
+   "name": "FIFA World Cup",
+   "family": "football",
+   "whole": true
+  },
+  {
+   "slug": "world-cup-qualifiers",
+   "name": "World Cup qualifiers",
+   "family": "football",
+   "whole": true
+  },
+  {
+   "slug": "afc-asian-cup",
+   "name": "AFC Asian Cup",
+   "family": "football",
+   "whole": true
+  },
+  {
+   "slug": "uefa-euro",
+   "name": "UEFA European Championship",
+   "family": "football",
+   "whole": true
+  },
+  {
+   "slug": "uefa-nations-league",
+   "name": "UEFA Nations League",
+   "family": "football",
+   "whole": true
+  },
+  {
+   "slug": "copa-america",
+   "name": "Copa América",
+   "family": "football",
+   "whole": true
+  },
+  {
+   "slug": "gold-cup",
+   "name": "Concacaf Gold Cup",
+   "family": "football",
+   "whole": true
+  },
+  {
+   "slug": "concacaf-nations-league",
+   "name": "Concacaf Nations League",
+   "family": "football",
+   "whole": true
+  },
+  {
+   "slug": "afcon",
+   "name": "Africa Cup of Nations",
+   "family": "football",
+   "whole": true
+  },
+  {
+   "slug": "olympics-men",
+   "name": "Olympic men's football",
+   "family": "football",
+   "whole": true
+  },
+  {
+   "slug": "friendlies",
+   "name": "International friendlies",
+   "family": "football",
+   "whole": false
+  },
+  {
+   "slug": "a-league-women",
+   "name": "A-League Women",
+   "family": "football-women",
+   "whole": true
+  },
+  {
+   "slug": "womens-world-cup",
+   "name": "FIFA Women's World Cup",
+   "family": "football-women",
+   "whole": true
+  },
+  {
+   "slug": "womens-asian-cup",
+   "name": "AFC Women's Asian Cup",
+   "family": "football-women",
+   "whole": true
+  },
+  {
+   "slug": "womens-euro",
+   "name": "UEFA Women's Euro",
+   "family": "football-women",
+   "whole": true
+  },
+  {
+   "slug": "w-gold-cup",
+   "name": "Concacaf W Gold Cup",
+   "family": "football-women",
+   "whole": true
+  },
+  {
+   "slug": "copa-america-femenina",
+   "name": "Copa América Femenina",
+   "family": "football-women",
+   "whole": true
+  },
+  {
+   "slug": "wafcon",
+   "name": "Women's Africa Cup of Nations",
+   "family": "football-women",
+   "whole": true
+  },
+  {
+   "slug": "olympics-women",
+   "name": "Olympic women's football",
+   "family": "football-women",
+   "whole": true
+  },
+  {
+   "slug": "womens-friendlies",
+   "name": "Women's international friendlies",
+   "family": "football-women",
+   "whole": false
+  },
+  {
+   "slug": "nrl",
+   "name": "NRL",
+   "family": "league",
+   "whole": true
+  },
+  {
+   "slug": "rlwc",
+   "name": "Rugby League World Cup",
+   "family": "league",
+   "whole": true
+  },
+  {
+   "slug": "afl",
+   "name": "AFL",
+   "family": "afl",
+   "whole": true
   }
  ],
  "teams": [
+  {
+   "slug": "football-aberdeen",
+   "name": "Aberdeen",
+   "short": "Aberdeen",
+   "family": "football",
+   "group": "Scottish Premiership",
+   "competitions": [
+    "scottish-premiership",
+    "scottish-league-cup"
+   ]
+  },
   {
    "slug": "football-adelaide-united",
    "name": "Adelaide United",
    "short": "Adelaide United",
    "family": "football",
+   "group": "A-League Men",
    "competitions": [
     "a-league-men",
     "acl-two"
+   ]
+  },
+  {
+   "slug": "football-afc-bournemouth",
+   "name": "AFC Bournemouth",
+   "short": "AFC Bournemouth",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "uefa-europa-league",
+    "efl-cup"
+   ]
+  },
+  {
+   "slug": "football-afghanistan",
+   "name": "Afghanistan",
+   "short": "Afghanistan",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-albania",
+   "name": "Albania",
+   "short": "Albania",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-algeria",
+   "name": "Algeria",
+   "short": "Algeria",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-american-samoa",
+   "name": "American Samoa",
+   "short": "American Samoa",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-andorra",
+   "name": "Andorra",
+   "short": "Andorra",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-angola",
+   "name": "Angola",
+   "short": "Angola",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-anguilla",
+   "name": "Anguilla",
+   "short": "Anguilla",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-antigua-and-barbuda",
+   "name": "Antigua and Barbuda",
+   "short": "Antigua and Barbuda",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league"
+   ]
+  },
+  {
+   "slug": "football-argentina",
+   "name": "Argentina",
+   "short": "Argentina",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "copa-america",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-argentina-u23",
+   "name": "Argentina U23",
+   "short": "Argentina U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-armenia",
+   "name": "Armenia",
+   "short": "Armenia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-arsenal",
+   "name": "Arsenal",
+   "short": "Arsenal",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "uefa-champions-league",
+    "efl-cup"
+   ]
+  },
+  {
+   "slug": "football-aruba",
+   "name": "Aruba",
+   "short": "Aruba",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-aston-villa",
+   "name": "Aston Villa",
+   "short": "Aston Villa",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "uefa-champions-league",
+    "efl-cup"
    ]
   },
   {
@@ -71,8 +432,257 @@
    "name": "Auckland FC",
    "short": "Auckland FC",
    "family": "football",
+   "group": "A-League Men",
    "competitions": [
     "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-australia",
+   "name": "Australia",
+   "short": "Australia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-austria",
+   "name": "Austria",
+   "short": "Austria",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-azerbaijan",
+   "name": "Azerbaijan",
+   "short": "Azerbaijan",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-bahamas",
+   "name": "Bahamas",
+   "short": "Bahamas",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-bahrain",
+   "name": "Bahrain",
+   "short": "Bahrain",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-bangladesh",
+   "name": "Bangladesh",
+   "short": "Bangladesh",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-barbados",
+   "name": "Barbados",
+   "short": "Barbados",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-belarus",
+   "name": "Belarus",
+   "short": "Belarus",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-belgium",
+   "name": "Belgium",
+   "short": "Belgium",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-belize",
+   "name": "Belize",
+   "short": "Belize",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-benin",
+   "name": "Benin",
+   "short": "Benin",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-bermuda",
+   "name": "Bermuda",
+   "short": "Bermuda",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-bhutan",
+   "name": "Bhutan",
+   "short": "Bhutan",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-bolivia",
+   "name": "Bolivia",
+   "short": "Bolivia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "copa-america",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-bonaire",
+   "name": "Bonaire",
+   "short": "Bonaire",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-bosnia-herzegovina",
+   "name": "Bosnia-Herzegovina",
+   "short": "Bosnia-Herzegovina",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-botswana",
+   "name": "Botswana",
+   "short": "Botswana",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-brazil",
+   "name": "Brazil",
+   "short": "Brazil",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "copa-america",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-brentford",
+   "name": "Brentford",
+   "short": "Brentford",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "efl-cup"
+   ]
+  },
+  {
+   "slug": "football-brighton-hove-albion",
+   "name": "Brighton & Hove Albion",
+   "short": "Brighton & Hove Albion",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "uefa-conference-league",
+    "efl-cup"
    ]
   },
   {
@@ -80,8 +690,155 @@
    "name": "Brisbane Roar",
    "short": "Brisbane Roar",
    "family": "football",
+   "group": "A-League Men",
    "competitions": [
     "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-british-virgin-islands",
+   "name": "British Virgin Islands",
+   "short": "British Virgin Islands",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-brunei-darussalam",
+   "name": "Brunei Darussalam",
+   "short": "Brunei Darussalam",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup"
+   ]
+  },
+  {
+   "slug": "football-bulgaria",
+   "name": "Bulgaria",
+   "short": "Bulgaria",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-burkina-faso",
+   "name": "Burkina Faso",
+   "short": "Burkina Faso",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-burundi",
+   "name": "Burundi",
+   "short": "Burundi",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-cambodia",
+   "name": "Cambodia",
+   "short": "Cambodia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-cameroon",
+   "name": "Cameroon",
+   "short": "Cameroon",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-canada",
+   "name": "Canada",
+   "short": "Canada",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "copa-america",
+    "gold-cup",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-cape-verde",
+   "name": "Cape Verde",
+   "short": "Cape Verde",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-cayman-islands",
+   "name": "Cayman Islands",
+   "short": "Cayman Islands",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-celtic",
+   "name": "Celtic",
+   "short": "Celtic",
+   "family": "football",
+   "group": "Scottish Premiership",
+   "competitions": [
+    "scottish-premiership",
+    "uefa-europa-league"
+   ]
+  },
+  {
+   "slug": "football-central-african-republic",
+   "name": "Central African Republic",
+   "short": "Central African Republic",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
    ]
   },
   {
@@ -89,8 +846,1188 @@
    "name": "Central Coast Mariners",
    "short": "Central Coast Mariners",
    "family": "football",
+   "group": "A-League Men",
    "competitions": [
     "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-chad",
+   "name": "Chad",
+   "short": "Chad",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon"
+   ]
+  },
+  {
+   "slug": "football-chelsea",
+   "name": "Chelsea",
+   "short": "Chelsea",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "efl-cup"
+   ]
+  },
+  {
+   "slug": "football-chile",
+   "name": "Chile",
+   "short": "Chile",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "copa-america",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-china",
+   "name": "China",
+   "short": "China",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-chinese-taipei",
+   "name": "Chinese Taipei",
+   "short": "Chinese Taipei",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-colombia",
+   "name": "Colombia",
+   "short": "Colombia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "copa-america",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-comoros",
+   "name": "Comoros",
+   "short": "Comoros",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-congo",
+   "name": "Congo",
+   "short": "Congo",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon"
+   ]
+  },
+  {
+   "slug": "football-congo-dr",
+   "name": "Congo DR",
+   "short": "Congo DR",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-cook-islands",
+   "name": "Cook Islands",
+   "short": "Cook Islands",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-costa-rica",
+   "name": "Costa Rica",
+   "short": "Costa Rica",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "copa-america",
+    "gold-cup",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-coventry-city",
+   "name": "Coventry City",
+   "short": "Coventry City",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league"
+   ]
+  },
+  {
+   "slug": "football-croatia",
+   "name": "Croatia",
+   "short": "Croatia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-crystal-palace",
+   "name": "Crystal Palace",
+   "short": "Crystal Palace",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "uefa-europa-league",
+    "efl-cup"
+   ]
+  },
+  {
+   "slug": "football-cuba",
+   "name": "Cuba",
+   "short": "Cuba",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-cura-ao",
+   "name": "Curaçao",
+   "short": "Curaçao",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "gold-cup",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-cyprus",
+   "name": "Cyprus",
+   "short": "Cyprus",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-czechia",
+   "name": "Czechia",
+   "short": "Czechia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-denmark",
+   "name": "Denmark",
+   "short": "Denmark",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-djibouti",
+   "name": "Djibouti",
+   "short": "Djibouti",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-dominica",
+   "name": "Dominica",
+   "short": "Dominica",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-dominican-republic",
+   "name": "Dominican Republic",
+   "short": "Dominican Republic",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "gold-cup",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-dominican-republic-u23",
+   "name": "Dominican Republic U23",
+   "short": "Dominican Republic U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-dundee",
+   "name": "Dundee",
+   "short": "Dundee",
+   "family": "football",
+   "group": "Scottish Premiership",
+   "competitions": [
+    "scottish-premiership"
+   ]
+  },
+  {
+   "slug": "football-dundee-united",
+   "name": "Dundee United",
+   "short": "Dundee United",
+   "family": "football",
+   "group": "Scottish Premiership",
+   "competitions": [
+    "scottish-premiership"
+   ]
+  },
+  {
+   "slug": "football-ecuador",
+   "name": "Ecuador",
+   "short": "Ecuador",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "copa-america",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-egypt",
+   "name": "Egypt",
+   "short": "Egypt",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-egypt-u23",
+   "name": "Egypt U23",
+   "short": "Egypt U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-el-salvador",
+   "name": "El Salvador",
+   "short": "El Salvador",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "gold-cup",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-england",
+   "name": "England",
+   "short": "England",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-equatorial-guinea",
+   "name": "Equatorial Guinea",
+   "short": "Equatorial Guinea",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-eritrea",
+   "name": "Eritrea",
+   "short": "Eritrea",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon"
+   ]
+  },
+  {
+   "slug": "football-estonia",
+   "name": "Estonia",
+   "short": "Estonia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-eswatini",
+   "name": "Eswatini",
+   "short": "Eswatini",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon"
+   ]
+  },
+  {
+   "slug": "football-ethiopia",
+   "name": "Ethiopia",
+   "short": "Ethiopia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-everton",
+   "name": "Everton",
+   "short": "Everton",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "efl-cup"
+   ]
+  },
+  {
+   "slug": "football-falkirk",
+   "name": "Falkirk",
+   "short": "Falkirk",
+   "family": "football",
+   "group": "Scottish Premiership",
+   "competitions": [
+    "scottish-premiership"
+   ]
+  },
+  {
+   "slug": "football-faroe-islands",
+   "name": "Faroe Islands",
+   "short": "Faroe Islands",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-fiji",
+   "name": "Fiji",
+   "short": "Fiji",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-finland",
+   "name": "Finland",
+   "short": "Finland",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-france",
+   "name": "France",
+   "short": "France",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-france-u23",
+   "name": "France U23",
+   "short": "France U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-french-guiana",
+   "name": "French Guiana",
+   "short": "French Guiana",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "concacaf-nations-league"
+   ]
+  },
+  {
+   "slug": "football-fulham",
+   "name": "Fulham",
+   "short": "Fulham",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "efl-cup"
+   ]
+  },
+  {
+   "slug": "football-gabon",
+   "name": "Gabon",
+   "short": "Gabon",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-gambia",
+   "name": "Gambia",
+   "short": "Gambia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-georgia",
+   "name": "Georgia",
+   "short": "Georgia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-germany",
+   "name": "Germany",
+   "short": "Germany",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-ghana",
+   "name": "Ghana",
+   "short": "Ghana",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-gibraltar",
+   "name": "Gibraltar",
+   "short": "Gibraltar",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-greece",
+   "name": "Greece",
+   "short": "Greece",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-grenada",
+   "name": "Grenada",
+   "short": "Grenada",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-guadeloupe",
+   "name": "Guadeloupe",
+   "short": "Guadeloupe",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "gold-cup",
+    "concacaf-nations-league"
+   ]
+  },
+  {
+   "slug": "football-guam",
+   "name": "Guam",
+   "short": "Guam",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-guatemala",
+   "name": "Guatemala",
+   "short": "Guatemala",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "gold-cup",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-guinea",
+   "name": "Guinea",
+   "short": "Guinea",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-guinea-u23",
+   "name": "Guinea U23",
+   "short": "Guinea U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-guinea-bissau",
+   "name": "Guinea-Bissau",
+   "short": "Guinea-Bissau",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon"
+   ]
+  },
+  {
+   "slug": "football-guyana",
+   "name": "Guyana",
+   "short": "Guyana",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-haiti",
+   "name": "Haiti",
+   "short": "Haiti",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "gold-cup",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-heart-of-midlothian",
+   "name": "Heart of Midlothian",
+   "short": "Heart of Midlothian",
+   "family": "football",
+   "group": "Scottish Premiership",
+   "competitions": [
+    "scottish-premiership",
+    "uefa-conference-league",
+    "scottish-league-cup"
+   ]
+  },
+  {
+   "slug": "football-hibernian",
+   "name": "Hibernian",
+   "short": "Hibernian",
+   "family": "football",
+   "group": "Scottish Premiership",
+   "competitions": [
+    "scottish-premiership",
+    "scottish-league-cup"
+   ]
+  },
+  {
+   "slug": "football-honduras",
+   "name": "Honduras",
+   "short": "Honduras",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "gold-cup",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-hong-kong",
+   "name": "Hong Kong",
+   "short": "Hong Kong",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-hull-city",
+   "name": "Hull City",
+   "short": "Hull City",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league"
+   ]
+  },
+  {
+   "slug": "football-hungary",
+   "name": "Hungary",
+   "short": "Hungary",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-iceland",
+   "name": "Iceland",
+   "short": "Iceland",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-india",
+   "name": "India",
+   "short": "India",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-indonesia",
+   "name": "Indonesia",
+   "short": "Indonesia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-ipswich-town",
+   "name": "Ipswich Town",
+   "short": "Ipswich Town",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league"
+   ]
+  },
+  {
+   "slug": "football-iran",
+   "name": "Iran",
+   "short": "Iran",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-iraq",
+   "name": "Iraq",
+   "short": "Iraq",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-iraq-u23",
+   "name": "Iraq U23",
+   "short": "Iraq U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-israel",
+   "name": "Israel",
+   "short": "Israel",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-israel-u23",
+   "name": "Israel U23",
+   "short": "Israel U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-italy",
+   "name": "Italy",
+   "short": "Italy",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-ivory-coast",
+   "name": "Ivory Coast",
+   "short": "Ivory Coast",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-jamaica",
+   "name": "Jamaica",
+   "short": "Jamaica",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "copa-america",
+    "gold-cup",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-japan",
+   "name": "Japan",
+   "short": "Japan",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-japan-u23",
+   "name": "Japan U23",
+   "short": "Japan U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-jordan",
+   "name": "Jordan",
+   "short": "Jordan",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-kazakhstan",
+   "name": "Kazakhstan",
+   "short": "Kazakhstan",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-kenya",
+   "name": "Kenya",
+   "short": "Kenya",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-kilmarnock",
+   "name": "Kilmarnock",
+   "short": "Kilmarnock",
+   "family": "football",
+   "group": "Scottish Premiership",
+   "competitions": [
+    "scottish-premiership"
+   ]
+  },
+  {
+   "slug": "football-kosovo",
+   "name": "Kosovo",
+   "short": "Kosovo",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-kuwait",
+   "name": "Kuwait",
+   "short": "Kuwait",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-kyrgyz-republic",
+   "name": "Kyrgyz Republic",
+   "short": "Kyrgyz Republic",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-laos",
+   "name": "Laos",
+   "short": "Laos",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup"
+   ]
+  },
+  {
+   "slug": "football-latvia",
+   "name": "Latvia",
+   "short": "Latvia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league"
+   ]
+  },
+  {
+   "slug": "football-lebanon",
+   "name": "Lebanon",
+   "short": "Lebanon",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-leeds-united",
+   "name": "Leeds United",
+   "short": "Leeds United",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league"
+   ]
+  },
+  {
+   "slug": "football-lesotho",
+   "name": "Lesotho",
+   "short": "Lesotho",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-liberia",
+   "name": "Liberia",
+   "short": "Liberia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-libya",
+   "name": "Libya",
+   "short": "Libya",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-liechtenstein",
+   "name": "Liechtenstein",
+   "short": "Liechtenstein",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-lithuania",
+   "name": "Lithuania",
+   "short": "Lithuania",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-liverpool",
+   "name": "Liverpool",
+   "short": "Liverpool",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "uefa-champions-league",
+    "efl-cup"
+   ]
+  },
+  {
+   "slug": "football-luxembourg",
+   "name": "Luxembourg",
+   "short": "Luxembourg",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
    ]
   },
   {
@@ -98,8 +2035,162 @@
    "name": "Macarthur FC",
    "short": "Macarthur FC",
    "family": "football",
+   "group": "A-League Men",
    "competitions": [
     "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-macau",
+   "name": "Macau",
+   "short": "Macau",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-madagascar",
+   "name": "Madagascar",
+   "short": "Madagascar",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-malawi",
+   "name": "Malawi",
+   "short": "Malawi",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-malaysia",
+   "name": "Malaysia",
+   "short": "Malaysia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-maldives",
+   "name": "Maldives",
+   "short": "Maldives",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-mali",
+   "name": "Mali",
+   "short": "Mali",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-mali-u23",
+   "name": "Mali U23",
+   "short": "Mali U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-malta",
+   "name": "Malta",
+   "short": "Malta",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-manchester-city",
+   "name": "Manchester City",
+   "short": "Manchester City",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "uefa-champions-league",
+    "efl-cup"
+   ]
+  },
+  {
+   "slug": "football-manchester-united",
+   "name": "Manchester United",
+   "short": "Manchester United",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "uefa-champions-league"
+   ]
+  },
+  {
+   "slug": "football-martinique",
+   "name": "Martinique",
+   "short": "Martinique",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-mauritania",
+   "name": "Mauritania",
+   "short": "Mauritania",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-mauritius",
+   "name": "Mauritius",
+   "short": "Mauritius",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
    ]
   },
   {
@@ -107,6 +2198,7 @@
    "name": "Melbourne City FC",
    "short": "Melbourne City FC",
    "family": "football",
+   "group": "A-League Men",
    "competitions": [
     "a-league-men"
    ]
@@ -116,9 +2208,200 @@
    "name": "Melbourne Victory",
    "short": "Melbourne Victory",
    "family": "football",
+   "group": "A-League Men",
    "competitions": [
     "a-league-men",
     "acl-two"
+   ]
+  },
+  {
+   "slug": "football-mexico",
+   "name": "Mexico",
+   "short": "Mexico",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "copa-america",
+    "gold-cup",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-moldova",
+   "name": "Moldova",
+   "short": "Moldova",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-mongolia",
+   "name": "Mongolia",
+   "short": "Mongolia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-montenegro",
+   "name": "Montenegro",
+   "short": "Montenegro",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-montserrat",
+   "name": "Montserrat",
+   "short": "Montserrat",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league"
+   ]
+  },
+  {
+   "slug": "football-morocco",
+   "name": "Morocco",
+   "short": "Morocco",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-morocco-u23",
+   "name": "Morocco U23",
+   "short": "Morocco U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-motherwell",
+   "name": "Motherwell",
+   "short": "Motherwell",
+   "family": "football",
+   "group": "Scottish Premiership",
+   "competitions": [
+    "scottish-premiership"
+   ]
+  },
+  {
+   "slug": "football-mozambique",
+   "name": "Mozambique",
+   "short": "Mozambique",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-myanmar",
+   "name": "Myanmar",
+   "short": "Myanmar",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-namibia",
+   "name": "Namibia",
+   "short": "Namibia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-nepal",
+   "name": "Nepal",
+   "short": "Nepal",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup"
+   ]
+  },
+  {
+   "slug": "football-netherlands",
+   "name": "Netherlands",
+   "short": "Netherlands",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-new-caledonia",
+   "name": "New Caledonia",
+   "short": "New Caledonia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-new-zealand",
+   "name": "New Zealand",
+   "short": "New Zealand",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-new-zealand-u23",
+   "name": "New Zealand U23",
+   "short": "New Zealand U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
    ]
   },
   {
@@ -126,9 +2409,203 @@
    "name": "Newcastle Jets",
    "short": "Newcastle Jets",
    "family": "football",
+   "group": "A-League Men",
    "competitions": [
     "a-league-men",
     "acl-elite"
+   ]
+  },
+  {
+   "slug": "football-newcastle-united",
+   "name": "Newcastle United",
+   "short": "Newcastle United",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "efl-cup"
+   ]
+  },
+  {
+   "slug": "football-nicaragua",
+   "name": "Nicaragua",
+   "short": "Nicaragua",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-niger",
+   "name": "Niger",
+   "short": "Niger",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-nigeria",
+   "name": "Nigeria",
+   "short": "Nigeria",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-north-korea",
+   "name": "North Korea",
+   "short": "North Korea",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup"
+   ]
+  },
+  {
+   "slug": "football-north-macedonia",
+   "name": "North Macedonia",
+   "short": "North Macedonia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-northern-ireland",
+   "name": "Northern Ireland",
+   "short": "Northern Ireland",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-norway",
+   "name": "Norway",
+   "short": "Norway",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-nottingham-forest",
+   "name": "Nottingham Forest",
+   "short": "Nottingham Forest",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league"
+   ]
+  },
+  {
+   "slug": "football-oman",
+   "name": "Oman",
+   "short": "Oman",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-pakistan",
+   "name": "Pakistan",
+   "short": "Pakistan",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-palestine",
+   "name": "Palestine",
+   "short": "Palestine",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-panama",
+   "name": "Panama",
+   "short": "Panama",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "copa-america",
+    "gold-cup",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-papua-new-guinea",
+   "name": "Papua New Guinea",
+   "short": "Papua New Guinea",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-paraguay",
+   "name": "Paraguay",
+   "short": "Paraguay",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "copa-america",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-paraguay-u23",
+   "name": "Paraguay U23",
+   "short": "Paraguay U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
    ]
   },
   {
@@ -136,8 +2613,532 @@
    "name": "Perth Glory",
    "short": "Perth Glory",
    "family": "football",
+   "group": "A-League Men",
    "competitions": [
     "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-peru",
+   "name": "Peru",
+   "short": "Peru",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "copa-america",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-philippines",
+   "name": "Philippines",
+   "short": "Philippines",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-poland",
+   "name": "Poland",
+   "short": "Poland",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-portugal",
+   "name": "Portugal",
+   "short": "Portugal",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-puerto-rico",
+   "name": "Puerto Rico",
+   "short": "Puerto Rico",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-qatar",
+   "name": "Qatar",
+   "short": "Qatar",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-rangers",
+   "name": "Rangers",
+   "short": "Rangers",
+   "family": "football",
+   "group": "Scottish Premiership",
+   "competitions": [
+    "scottish-premiership",
+    "scottish-league-cup"
+   ]
+  },
+  {
+   "slug": "football-republic-of-ireland",
+   "name": "Republic of Ireland",
+   "short": "Republic of Ireland",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-romania",
+   "name": "Romania",
+   "short": "Romania",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-russia",
+   "name": "Russia",
+   "short": "Russia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-rwanda",
+   "name": "Rwanda",
+   "short": "Rwanda",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-samoa",
+   "name": "Samoa",
+   "short": "Samoa",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers"
+   ]
+  },
+  {
+   "slug": "football-san-marino",
+   "name": "San Marino",
+   "short": "San Marino",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-sao-tome-and-principe",
+   "name": "Sao Tome and Principe",
+   "short": "Sao Tome and Principe",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-saudi-arabia",
+   "name": "Saudi Arabia",
+   "short": "Saudi Arabia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "gold-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-scotland",
+   "name": "Scotland",
+   "short": "Scotland",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-senegal",
+   "name": "Senegal",
+   "short": "Senegal",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-serbia",
+   "name": "Serbia",
+   "short": "Serbia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-seychelles",
+   "name": "Seychelles",
+   "short": "Seychelles",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-sierra-leone",
+   "name": "Sierra Leone",
+   "short": "Sierra Leone",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-singapore",
+   "name": "Singapore",
+   "short": "Singapore",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-sint-maarten",
+   "name": "Sint Maarten",
+   "short": "Sint Maarten",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-slovakia",
+   "name": "Slovakia",
+   "short": "Slovakia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-slovenia",
+   "name": "Slovenia",
+   "short": "Slovenia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-solomon-islands",
+   "name": "Solomon Islands",
+   "short": "Solomon Islands",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-somalia",
+   "name": "Somalia",
+   "short": "Somalia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon"
+   ]
+  },
+  {
+   "slug": "football-south-africa",
+   "name": "South Africa",
+   "short": "South Africa",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-south-korea",
+   "name": "South Korea",
+   "short": "South Korea",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-south-sudan",
+   "name": "South Sudan",
+   "short": "South Sudan",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon"
+   ]
+  },
+  {
+   "slug": "football-spain",
+   "name": "Spain",
+   "short": "Spain",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-spain-u23",
+   "name": "Spain U23",
+   "short": "Spain U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-sri-lanka",
+   "name": "Sri Lanka",
+   "short": "Sri Lanka",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-st-johnstone",
+   "name": "St Johnstone",
+   "short": "St Johnstone",
+   "family": "football",
+   "group": "Scottish Premiership",
+   "competitions": [
+    "scottish-premiership"
+   ]
+  },
+  {
+   "slug": "football-st-mirren",
+   "name": "St Mirren",
+   "short": "St Mirren",
+   "family": "football",
+   "group": "Scottish Premiership",
+   "competitions": [
+    "scottish-premiership"
+   ]
+  },
+  {
+   "slug": "football-st-kitts-and-nevis",
+   "name": "St. Kitts and Nevis",
+   "short": "St. Kitts and Nevis",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-st-lucia",
+   "name": "St. Lucia",
+   "short": "St. Lucia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-st-martin",
+   "name": "St. Martin",
+   "short": "St. Martin",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-st-vincent-and-the-grenadines",
+   "name": "St. Vincent and the Grenadines",
+   "short": "St. Vincent and the Grenadines",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-sudan",
+   "name": "Sudan",
+   "short": "Sudan",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-sunderland",
+   "name": "Sunderland",
+   "short": "Sunderland",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league",
+    "uefa-europa-league",
+    "efl-cup"
+   ]
+  },
+  {
+   "slug": "football-suriname",
+   "name": "Suriname",
+   "short": "Suriname",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "gold-cup",
+    "concacaf-nations-league"
+   ]
+  },
+  {
+   "slug": "football-sweden",
+   "name": "Sweden",
+   "short": "Sweden",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-switzerland",
+   "name": "Switzerland",
+   "short": "Switzerland",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
    ]
   },
   {
@@ -145,8 +3146,341 @@
    "name": "Sydney FC",
    "short": "Sydney FC",
    "family": "football",
+   "group": "A-League Men",
    "competitions": [
     "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-syria",
+   "name": "Syria",
+   "short": "Syria",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-tahiti",
+   "name": "Tahiti",
+   "short": "Tahiti",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-tajikistan",
+   "name": "Tajikistan",
+   "short": "Tajikistan",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-tanzania",
+   "name": "Tanzania",
+   "short": "Tanzania",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-thailand",
+   "name": "Thailand",
+   "short": "Thailand",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-timor-leste",
+   "name": "Timor-Leste",
+   "short": "Timor-Leste",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup"
+   ]
+  },
+  {
+   "slug": "football-togo",
+   "name": "Togo",
+   "short": "Togo",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-tonga",
+   "name": "Tonga",
+   "short": "Tonga",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers"
+   ]
+  },
+  {
+   "slug": "football-tottenham-hotspur",
+   "name": "Tottenham Hotspur",
+   "short": "Tottenham Hotspur",
+   "family": "football",
+   "group": "Premier League",
+   "competitions": [
+    "premier-league"
+   ]
+  },
+  {
+   "slug": "football-trinidad-and-tobago",
+   "name": "Trinidad and Tobago",
+   "short": "Trinidad and Tobago",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "gold-cup",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-tunisia",
+   "name": "Tunisia",
+   "short": "Tunisia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-turkmenistan",
+   "name": "Turkmenistan",
+   "short": "Turkmenistan",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-turks-and-caicos-islands",
+   "name": "Turks and Caicos Islands",
+   "short": "Turks and Caicos Islands",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league"
+   ]
+  },
+  {
+   "slug": "football-t-rkiye",
+   "name": "Türkiye",
+   "short": "Türkiye",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-uganda",
+   "name": "Uganda",
+   "short": "Uganda",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-ukraine",
+   "name": "Ukraine",
+   "short": "Ukraine",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-ukraine-u23",
+   "name": "Ukraine U23",
+   "short": "Ukraine U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-united-arab-emirates",
+   "name": "United Arab Emirates",
+   "short": "United Arab Emirates",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-united-states",
+   "name": "United States",
+   "short": "United States",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "copa-america",
+    "gold-cup",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-united-states-u23",
+   "name": "United States U23",
+   "short": "United States U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-uruguay",
+   "name": "Uruguay",
+   "short": "Uruguay",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "copa-america",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-us-virgin-islands",
+   "name": "US Virgin Islands",
+   "short": "US Virgin Islands",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "concacaf-nations-league",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-uzbekistan",
+   "name": "Uzbekistan",
+   "short": "Uzbekistan",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "fifa-world-cup",
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-uzbekistan-u23",
+   "name": "Uzbekistan U23",
+   "short": "Uzbekistan U23",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "olympics-men"
+   ]
+  },
+  {
+   "slug": "football-vanuatu",
+   "name": "Vanuatu",
+   "short": "Vanuatu",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-venezuela",
+   "name": "Venezuela",
+   "short": "Venezuela",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "copa-america",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-vietnam",
+   "name": "Vietnam",
+   "short": "Vietnam",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-wales",
+   "name": "Wales",
+   "short": "Wales",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "uefa-euro",
+    "uefa-nations-league",
+    "friendlies"
    ]
   },
   {
@@ -154,6 +3488,7 @@
    "name": "Wellington Phoenix FC",
    "short": "Wellington Phoenix FC",
    "family": "football",
+   "group": "A-League Men",
    "competitions": [
     "a-league-men"
    ]
@@ -163,8 +3498,45 @@
    "name": "Western Sydney Wanderers",
    "short": "Western Sydney Wanderers",
    "family": "football",
+   "group": "A-League Men",
    "competitions": [
     "a-league-men"
+   ]
+  },
+  {
+   "slug": "football-yemen",
+   "name": "Yemen",
+   "short": "Yemen",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afc-asian-cup",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-zambia",
+   "name": "Zambia",
+   "short": "Zambia",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
+   ]
+  },
+  {
+   "slug": "football-zimbabwe",
+   "name": "Zimbabwe",
+   "short": "Zimbabwe",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "world-cup-qualifiers",
+    "afcon",
+    "friendlies"
    ]
   },
   {
@@ -172,8 +3544,130 @@
    "name": "Adelaide United (Women's football)",
    "short": "Adelaide United",
    "family": "football-women",
+   "group": "A-League Women",
    "competitions": [
     "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-algeria",
+   "name": "Algeria (Women's football)",
+   "short": "Algeria",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "wafcon"
+   ]
+  },
+  {
+   "slug": "football-women-andorra",
+   "name": "Andorra (Women's football)",
+   "short": "Andorra",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-argentina",
+   "name": "Argentina (Women's football)",
+   "short": "Argentina",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "w-gold-cup",
+    "copa-america-femenina",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-armenia",
+   "name": "Armenia (Women's football)",
+   "short": "Armenia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-australia",
+   "name": "Australia (Women's football)",
+   "short": "Australia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-asian-cup",
+    "olympics-women",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-bangladesh",
+   "name": "Bangladesh (Women's football)",
+   "short": "Bangladesh",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-asian-cup"
+   ]
+  },
+  {
+   "slug": "football-women-belgium",
+   "name": "Belgium (Women's football)",
+   "short": "Belgium",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-euro"
+   ]
+  },
+  {
+   "slug": "football-women-bolivia",
+   "name": "Bolivia (Women's football)",
+   "short": "Bolivia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "copa-america-femenina",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-bosnia-herzegovina",
+   "name": "Bosnia-Herzegovina (Women's football)",
+   "short": "Bosnia-Herzegovina",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-botswana",
+   "name": "Botswana (Women's football)",
+   "short": "Botswana",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-brazil",
+   "name": "Brazil (Women's football)",
+   "short": "Brazil",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "w-gold-cup",
+    "copa-america-femenina",
+    "olympics-women",
+    "womens-friendlies"
    ]
   },
   {
@@ -181,8 +3675,42 @@
    "name": "Brisbane Roar (Women's football)",
    "short": "Brisbane Roar",
    "family": "football-women",
+   "group": "A-League Women",
    "competitions": [
     "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-burkina-faso",
+   "name": "Burkina Faso (Women's football)",
+   "short": "Burkina Faso",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "wafcon"
+   ]
+  },
+  {
+   "slug": "football-women-cameroon",
+   "name": "Cameroon (Women's football)",
+   "short": "Cameroon",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "wafcon"
+   ]
+  },
+  {
+   "slug": "football-women-canada",
+   "name": "Canada (Women's football)",
+   "short": "Canada",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "w-gold-cup",
+    "olympics-women",
+    "womens-friendlies"
    ]
   },
   {
@@ -190,8 +3718,19 @@
    "name": "Canberra United",
    "short": "Canberra United",
    "family": "football-women",
+   "group": "A-League Women",
    "competitions": [
     "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-cape-verde",
+   "name": "Cape Verde (Women's football)",
+   "short": "Cape Verde",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "wafcon"
    ]
   },
   {
@@ -199,8 +3738,437 @@
    "name": "Central Coast Mariners (Women's football)",
    "short": "Central Coast Mariners",
    "family": "football-women",
+   "group": "A-League Women",
    "competitions": [
     "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-chile",
+   "name": "Chile (Women's football)",
+   "short": "Chile",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "copa-america-femenina",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-china",
+   "name": "China (Women's football)",
+   "short": "China",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-asian-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-chinese-taipei",
+   "name": "Chinese Taipei (Women's football)",
+   "short": "Chinese Taipei",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-asian-cup"
+   ]
+  },
+  {
+   "slug": "football-women-colombia",
+   "name": "Colombia (Women's football)",
+   "short": "Colombia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "w-gold-cup",
+    "copa-america-femenina",
+    "olympics-women",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-costa-rica",
+   "name": "Costa Rica (Women's football)",
+   "short": "Costa Rica",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "w-gold-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-denmark",
+   "name": "Denmark (Women's football)",
+   "short": "Denmark",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-euro",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-dominican-republic",
+   "name": "Dominican Republic (Women's football)",
+   "short": "Dominican Republic",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "w-gold-cup"
+   ]
+  },
+  {
+   "slug": "football-women-ecuador",
+   "name": "Ecuador (Women's football)",
+   "short": "Ecuador",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "copa-america-femenina"
+   ]
+  },
+  {
+   "slug": "football-women-egypt",
+   "name": "Egypt (Women's football)",
+   "short": "Egypt",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "wafcon"
+   ]
+  },
+  {
+   "slug": "football-women-el-salvador",
+   "name": "El Salvador (Women's football)",
+   "short": "El Salvador",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "w-gold-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-england",
+   "name": "England (Women's football)",
+   "short": "England",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-euro"
+   ]
+  },
+  {
+   "slug": "football-women-ethiopia",
+   "name": "Ethiopia (Women's football)",
+   "short": "Ethiopia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-faroe-islands",
+   "name": "Faroe Islands (Women's football)",
+   "short": "Faroe Islands",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-fiji",
+   "name": "Fiji (Women's football)",
+   "short": "Fiji",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-finland",
+   "name": "Finland (Women's football)",
+   "short": "Finland",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-euro"
+   ]
+  },
+  {
+   "slug": "football-women-france",
+   "name": "France (Women's football)",
+   "short": "France",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-euro",
+    "olympics-women",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-georgia",
+   "name": "Georgia (Women's football)",
+   "short": "Georgia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-germany",
+   "name": "Germany (Women's football)",
+   "short": "Germany",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-euro",
+    "olympics-women",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-ghana",
+   "name": "Ghana (Women's football)",
+   "short": "Ghana",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "wafcon"
+   ]
+  },
+  {
+   "slug": "football-women-gibraltar",
+   "name": "Gibraltar (Women's football)",
+   "short": "Gibraltar",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-guatemala",
+   "name": "Guatemala (Women's football)",
+   "short": "Guatemala",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-haiti",
+   "name": "Haiti (Women's football)",
+   "short": "Haiti",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-iceland",
+   "name": "Iceland (Women's football)",
+   "short": "Iceland",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-euro"
+   ]
+  },
+  {
+   "slug": "football-women-india",
+   "name": "India (Women's football)",
+   "short": "India",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-asian-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-indonesia",
+   "name": "Indonesia (Women's football)",
+   "short": "Indonesia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-iran",
+   "name": "Iran (Women's football)",
+   "short": "Iran",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-asian-cup"
+   ]
+  },
+  {
+   "slug": "football-women-italy",
+   "name": "Italy (Women's football)",
+   "short": "Italy",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-euro"
+   ]
+  },
+  {
+   "slug": "football-women-ivory-coast",
+   "name": "Ivory Coast (Women's football)",
+   "short": "Ivory Coast",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "wafcon"
+   ]
+  },
+  {
+   "slug": "football-women-jamaica",
+   "name": "Jamaica (Women's football)",
+   "short": "Jamaica",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-japan",
+   "name": "Japan (Women's football)",
+   "short": "Japan",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-asian-cup",
+    "olympics-women",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-jordan",
+   "name": "Jordan (Women's football)",
+   "short": "Jordan",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-kenya",
+   "name": "Kenya (Women's football)",
+   "short": "Kenya",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "wafcon",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-latvia",
+   "name": "Latvia (Women's football)",
+   "short": "Latvia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-lebanon",
+   "name": "Lebanon (Women's football)",
+   "short": "Lebanon",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-liechtenstein",
+   "name": "Liechtenstein (Women's football)",
+   "short": "Liechtenstein",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-luxembourg",
+   "name": "Luxembourg (Women's football)",
+   "short": "Luxembourg",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-malawi",
+   "name": "Malawi (Women's football)",
+   "short": "Malawi",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "wafcon",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-malaysia",
+   "name": "Malaysia (Women's football)",
+   "short": "Malaysia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-mali",
+   "name": "Mali (Women's football)",
+   "short": "Mali",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "wafcon"
+   ]
+  },
+  {
+   "slug": "football-women-malta",
+   "name": "Malta (Women's football)",
+   "short": "Malta",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
    ]
   },
   {
@@ -208,6 +4176,7 @@
    "name": "Melbourne City",
    "short": "Melbourne City",
    "family": "football-women",
+   "group": "A-League Women",
    "competitions": [
     "a-league-women"
    ]
@@ -217,8 +4186,95 @@
    "name": "Melbourne Victory (Women's football)",
    "short": "Melbourne Victory",
    "family": "football-women",
+   "group": "A-League Women",
    "competitions": [
     "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-mexico",
+   "name": "Mexico (Women's football)",
+   "short": "Mexico",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "w-gold-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-moldova",
+   "name": "Moldova (Women's football)",
+   "short": "Moldova",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-montenegro",
+   "name": "Montenegro (Women's football)",
+   "short": "Montenegro",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-morocco",
+   "name": "Morocco (Women's football)",
+   "short": "Morocco",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "wafcon",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-namibia",
+   "name": "Namibia (Women's football)",
+   "short": "Namibia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-netherlands",
+   "name": "Netherlands (Women's football)",
+   "short": "Netherlands",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-euro"
+   ]
+  },
+  {
+   "slug": "football-women-new-caledonia",
+   "name": "New Caledonia (Women's football)",
+   "short": "New Caledonia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-new-zealand",
+   "name": "New Zealand (Women's football)",
+   "short": "New Zealand",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "olympics-women",
+    "womens-friendlies"
    ]
   },
   {
@@ -226,8 +4282,86 @@
    "name": "Newcastle Jets (Women's football)",
    "short": "Newcastle Jets",
    "family": "football-women",
+   "group": "A-League Women",
    "competitions": [
     "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-nigeria",
+   "name": "Nigeria (Women's football)",
+   "short": "Nigeria",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "wafcon",
+    "olympics-women"
+   ]
+  },
+  {
+   "slug": "football-women-north-korea",
+   "name": "North Korea (Women's football)",
+   "short": "North Korea",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-asian-cup"
+   ]
+  },
+  {
+   "slug": "football-women-norway",
+   "name": "Norway (Women's football)",
+   "short": "Norway",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-euro"
+   ]
+  },
+  {
+   "slug": "football-women-palestine",
+   "name": "Palestine (Women's football)",
+   "short": "Palestine",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-panama",
+   "name": "Panama (Women's football)",
+   "short": "Panama",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "w-gold-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-papua-new-guinea",
+   "name": "Papua New Guinea (Women's football)",
+   "short": "Papua New Guinea",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-paraguay",
+   "name": "Paraguay (Women's football)",
+   "short": "Paraguay",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "w-gold-cup",
+    "copa-america-femenina",
+    "womens-friendlies"
    ]
   },
   {
@@ -235,8 +4369,192 @@
    "name": "Perth Glory (Women's football)",
    "short": "Perth Glory",
    "family": "football-women",
+   "group": "A-League Women",
    "competitions": [
     "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-peru",
+   "name": "Peru (Women's football)",
+   "short": "Peru",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "copa-america-femenina",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-philippines",
+   "name": "Philippines (Women's football)",
+   "short": "Philippines",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-asian-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-poland",
+   "name": "Poland (Women's football)",
+   "short": "Poland",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-euro"
+   ]
+  },
+  {
+   "slug": "football-women-portugal",
+   "name": "Portugal (Women's football)",
+   "short": "Portugal",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-euro"
+   ]
+  },
+  {
+   "slug": "football-women-puerto-rico",
+   "name": "Puerto Rico (Women's football)",
+   "short": "Puerto Rico",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "w-gold-cup"
+   ]
+  },
+  {
+   "slug": "football-women-republic-of-ireland",
+   "name": "Republic of Ireland (Women's football)",
+   "short": "Republic of Ireland",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup"
+   ]
+  },
+  {
+   "slug": "football-women-russia",
+   "name": "Russia (Women's football)",
+   "short": "Russia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-san-marino",
+   "name": "San Marino (Women's football)",
+   "short": "San Marino",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-saudi-arabia",
+   "name": "Saudi Arabia (Women's football)",
+   "short": "Saudi Arabia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-senegal",
+   "name": "Senegal (Women's football)",
+   "short": "Senegal",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "wafcon"
+   ]
+  },
+  {
+   "slug": "football-women-seychelles",
+   "name": "Seychelles (Women's football)",
+   "short": "Seychelles",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-solomon-islands",
+   "name": "Solomon Islands (Women's football)",
+   "short": "Solomon Islands",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-south-africa",
+   "name": "South Africa (Women's football)",
+   "short": "South Africa",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "wafcon",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-south-korea",
+   "name": "South Korea (Women's football)",
+   "short": "South Korea",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-asian-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-spain",
+   "name": "Spain (Women's football)",
+   "short": "Spain",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-euro",
+    "olympics-women",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-sweden",
+   "name": "Sweden (Women's football)",
+   "short": "Sweden",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-euro"
+   ]
+  },
+  {
+   "slug": "football-women-switzerland",
+   "name": "Switzerland (Women's football)",
+   "short": "Switzerland",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-euro"
    ]
   },
   {
@@ -244,8 +4562,96 @@
    "name": "Sydney FC (Women's football)",
    "short": "Sydney FC",
    "family": "football-women",
+   "group": "A-League Women",
    "competitions": [
     "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-tanzania",
+   "name": "Tanzania (Women's football)",
+   "short": "Tanzania",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "wafcon"
+   ]
+  },
+  {
+   "slug": "football-women-united-states",
+   "name": "United States (Women's football)",
+   "short": "United States",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "w-gold-cup",
+    "olympics-women",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-uruguay",
+   "name": "Uruguay (Women's football)",
+   "short": "Uruguay",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "copa-america-femenina"
+   ]
+  },
+  {
+   "slug": "football-women-uzbekistan",
+   "name": "Uzbekistan (Women's football)",
+   "short": "Uzbekistan",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-asian-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-vanuatu",
+   "name": "Vanuatu (Women's football)",
+   "short": "Vanuatu",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-venezuela",
+   "name": "Venezuela (Women's football)",
+   "short": "Venezuela",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "copa-america-femenina",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-vietnam",
+   "name": "Vietnam (Women's football)",
+   "short": "Vietnam",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "womens-asian-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-wales",
+   "name": "Wales (Women's football)",
+   "short": "Wales",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-euro"
    ]
   },
   {
@@ -253,6 +4659,7 @@
    "name": "Wellington Phoenix",
    "short": "Wellington Phoenix",
    "family": "football-women",
+   "group": "A-League Women",
    "competitions": [
     "a-league-women"
    ]
@@ -262,15 +4669,30 @@
    "name": "Western Sydney",
    "short": "Western Sydney",
    "family": "football-women",
+   "group": "A-League Women",
    "competitions": [
     "a-league-women"
    ]
   },
   {
+   "slug": "football-women-zambia",
+   "name": "Zambia (Women's football)",
+   "short": "Zambia",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-world-cup",
+    "wafcon",
+    "olympics-women",
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "league-australia",
-   "name": "Australia",
+   "name": "Australia (Rugby league)",
    "short": "Australia",
    "family": "league",
+   "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
    ]
@@ -280,6 +4702,7 @@
    "name": "Broncos",
    "short": "Broncos",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
@@ -289,15 +4712,17 @@
    "name": "Bulldogs",
    "short": "Bulldogs",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
   },
   {
    "slug": "league-cook-islands",
-   "name": "Cook Islands",
+   "name": "Cook Islands (Rugby league)",
    "short": "Cook Islands",
    "family": "league",
+   "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
    ]
@@ -307,6 +4732,7 @@
    "name": "Cowboys",
    "short": "Cowboys",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
@@ -316,6 +4742,7 @@
    "name": "Dolphins",
    "short": "Dolphins",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
@@ -325,6 +4752,7 @@
    "name": "Dragons",
    "short": "Dragons",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
@@ -334,33 +4762,37 @@
    "name": "Eels",
    "short": "Eels",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
   },
   {
    "slug": "league-england",
-   "name": "England",
+   "name": "England (Rugby league)",
    "short": "England",
    "family": "league",
+   "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
    ]
   },
   {
    "slug": "league-fiji",
-   "name": "Fiji",
+   "name": "Fiji (Rugby league)",
    "short": "Fiji",
    "family": "league",
+   "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
    ]
   },
   {
    "slug": "league-france",
-   "name": "France",
+   "name": "France (Rugby league)",
    "short": "France",
    "family": "league",
+   "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
    ]
@@ -370,15 +4802,17 @@
    "name": "Knights",
    "short": "Knights",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
   },
   {
    "slug": "league-lebanon",
-   "name": "Lebanon",
+   "name": "Lebanon (Rugby league)",
    "short": "Lebanon",
    "family": "league",
+   "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
    ]
@@ -388,15 +4822,17 @@
    "name": "New South Wales",
    "short": "New South Wales",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
   },
   {
    "slug": "league-new-zealand",
-   "name": "New Zealand",
+   "name": "New Zealand (Rugby league)",
    "short": "New Zealand",
    "family": "league",
+   "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
    ]
@@ -406,15 +4842,17 @@
    "name": "Panthers",
    "short": "Panthers",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
   },
   {
    "slug": "league-papua-new-guinea",
-   "name": "Papua New Guinea",
+   "name": "Papua New Guinea (Rugby league)",
    "short": "Papua New Guinea",
    "family": "league",
+   "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
    ]
@@ -424,6 +4862,7 @@
    "name": "Queensland",
    "short": "Queensland",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
@@ -433,6 +4872,7 @@
    "name": "Rabbitohs",
    "short": "Rabbitohs",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
@@ -442,6 +4882,7 @@
    "name": "Raiders",
    "short": "Raiders",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
@@ -451,15 +4892,17 @@
    "name": "Roosters",
    "short": "Roosters",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
   },
   {
    "slug": "league-samoa",
-   "name": "Samoa",
+   "name": "Samoa (Rugby league)",
    "short": "Samoa",
    "family": "league",
+   "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
    ]
@@ -469,6 +4912,7 @@
    "name": "Sea Eagles",
    "short": "Sea Eagles",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
@@ -478,6 +4922,7 @@
    "name": "Sharks",
    "short": "Sharks",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
@@ -487,6 +4932,7 @@
    "name": "Storm",
    "short": "Storm",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
@@ -496,6 +4942,7 @@
    "name": "Titans",
    "short": "Titans",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
@@ -505,6 +4952,7 @@
    "name": "Tonga XIII",
    "short": "Tonga XIII",
    "family": "league",
+   "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
    ]
@@ -514,6 +4962,7 @@
    "name": "Warriors",
    "short": "Warriors",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
@@ -523,6 +4972,7 @@
    "name": "Wests Tigers",
    "short": "Wests Tigers",
    "family": "league",
+   "group": "NRL",
    "competitions": [
     "nrl"
    ]
@@ -532,6 +4982,7 @@
    "name": "Adelaide Crows",
    "short": "Adelaide Crows",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -541,6 +4992,7 @@
    "name": "Brisbane Lions",
    "short": "Brisbane Lions",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -550,6 +5002,7 @@
    "name": "Carlton",
    "short": "Carlton",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -559,6 +5012,7 @@
    "name": "Collingwood",
    "short": "Collingwood",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -568,6 +5022,7 @@
    "name": "Essendon",
    "short": "Essendon",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -577,6 +5032,7 @@
    "name": "Fremantle",
    "short": "Fremantle",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -586,6 +5042,7 @@
    "name": "Geelong Cats",
    "short": "Geelong Cats",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -595,6 +5052,7 @@
    "name": "Gold Coast SUNS",
    "short": "Gold Coast SUNS",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -604,6 +5062,7 @@
    "name": "GWS GIANTS",
    "short": "GWS GIANTS",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -613,6 +5072,7 @@
    "name": "Hawthorn",
    "short": "Hawthorn",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -622,6 +5082,7 @@
    "name": "Melbourne",
    "short": "Melbourne",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -631,6 +5092,7 @@
    "name": "North Melbourne",
    "short": "North Melbourne",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -640,6 +5102,7 @@
    "name": "Port Adelaide",
    "short": "Port Adelaide",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -649,6 +5112,7 @@
    "name": "Richmond",
    "short": "Richmond",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -658,6 +5122,7 @@
    "name": "St Kilda",
    "short": "St Kilda",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -667,6 +5132,7 @@
    "name": "Sydney Swans",
    "short": "Sydney Swans",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -676,6 +5142,7 @@
    "name": "West Coast Eagles",
    "short": "West Coast Eagles",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
@@ -685,6 +5152,7 @@
    "name": "Western Bulldogs",
    "short": "Western Bulldogs",
    "family": "afl",
+   "group": "AFL",
    "competitions": [
     "afl"
    ]
