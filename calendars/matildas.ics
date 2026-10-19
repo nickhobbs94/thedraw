@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//thedraw//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Matildas
+NAME:Matildas
+X-WR-CALDESC:Australia's women: friendlies\, Asian Cup\, World Cup and Olym
+ pics.
+X-WR-TIMEZONE:Australia/Sydney
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:b6d5941b99cad3714c7d@thedraw
+DTSTAMP:20261019T003351Z
+DTSTART:20261013T190000Z
+DTEND:20261013T210000Z
+SUMMARY:⚽ Friendly · Haiti v Australia
+LOCATION:Stade Walter Luzi\, Chambly
+DESCRIPTION:Women's International Friendly
+CATEGORIES:Women's International Friendly
+STATUS:CONFIRMED
+X-FOOTYDRAW-FEEDS:womens-friendlies
+X-FOOTYDRAW-TEAMS:football-women-australia,football-women-haiti
+END:VEVENT
+BEGIN:VEVENT
+UID:294c1d22d5e4e09a0642@thedraw
+DTSTAMP:20261019T003351Z
+DTSTART:20261128T083500Z
+DTEND:20261128T103500Z
+SUMMARY:⚽ Friendly · Australia v Colombia
+LOCATION:GIO Stadium\, Canberra
+DESCRIPTION:Women's International Friendly
+CATEGORIES:Women's International Friendly
+STATUS:CONFIRMED
+X-FOOTYDRAW-FEEDS:womens-friendlies
+X-FOOTYDRAW-TEAMS:football-women-australia,football-women-colombia
+END:VEVENT
+BEGIN:VEVENT
+UID:8afb1c1defc42a0d8b5a@thedraw
+DTSTAMP:20261019T003351Z
+DTSTART:20261202T083500Z
+DTEND:20261202T103500Z
+SUMMARY:⚽ Friendly · Australia v Colombia
+LOCATION:GMHBA Stadium\, Geelong
+DESCRIPTION:Women's International Friendly
+CATEGORIES:Women's International Friendly
+STATUS:CONFIRMED
+X-FOOTYDRAW-FEEDS:womens-friendlies
+X-FOOTYDRAW-TEAMS:football-women-australia,football-women-colombia
+END:VEVENT
+END:VCALENDAR
