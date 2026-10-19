@@ -5158,43 +5158,5 @@
    ]
   }
  ],
- "aliases": [
-  {
-   "slug": "all",
-   "name": "All",
-   "picks": [
-    "a-league-men",
-    "a-league-women",
-    "nrl",
-    "afl",
-    "rlwc",
-    "football-australia",
-    "football-women-australia",
-    "acl-elite",
-    "acl-two"
-   ]
-  },
-  {
-   "slug": "socceroos",
-   "name": "Socceroos",
-   "picks": [
-    "football-australia"
-   ]
-  },
-  {
-   "slug": "matildas",
-   "name": "Matildas",
-   "picks": [
-    "football-women-australia"
-   ]
-  },
-  {
-   "slug": "a-league-in-asia",
-   "name": "A-League clubs in Asia",
-   "picks": [
-    "acl-elite",
-    "acl-two"
-   ]
-  }
- ]
+ "aliases": []
 }
