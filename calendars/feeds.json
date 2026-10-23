@@ -429,8 +429,8 @@
   },
   {
    "slug": "football-auckland-fc",
-   "name": "AUCKLAND FC",
-   "short": "AUCKLAND FC",
+   "name": "Auckland FC",
+   "short": "Auckland FC",
    "family": "football",
    "group": "A-League Men",
    "competitions": [
@@ -2196,8 +2196,8 @@
   },
   {
    "slug": "football-melbourne-city-fc",
-   "name": "MELBOURNE CITY FC",
-   "short": "MELBOURNE CITY FC",
+   "name": "Melbourne City FC",
+   "short": "Melbourne City FC",
    "family": "football",
    "group": "A-League Men",
    "competitions": [
@@ -2206,8 +2206,8 @@
   },
   {
    "slug": "football-melbourne-victory",
-   "name": "MELBOURNE VICTORY",
-   "short": "MELBOURNE VICTORY",
+   "name": "Melbourne Victory",
+   "short": "Melbourne Victory",
    "family": "football",
    "group": "A-League Men",
    "competitions": [
@@ -3486,8 +3486,8 @@
   },
   {
    "slug": "football-wellington-phoenix-fc",
-   "name": "WELLINGTON PHOENIX FC",
-   "short": "WELLINGTON PHOENIX FC",
+   "name": "Wellington Phoenix",
+   "short": "Wellington Phoenix",
    "family": "football",
    "group": "A-League Men",
    "competitions": [
@@ -4657,7 +4657,7 @@
   },
   {
    "slug": "football-women-wellington-phoenix",
-   "name": "Wellington Phoenix",
+   "name": "Wellington Phoenix (Women's football)",
    "short": "Wellington Phoenix",
    "family": "football-women",
    "group": "A-League Women",

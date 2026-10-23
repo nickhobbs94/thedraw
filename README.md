@@ -50,7 +50,7 @@ Each competition also has its own calendar:
 | Copa América Femenina | `https://footydraw.com/calendars/copa-america-femenina.ics` | 0 |
 | Women's Africa Cup of Nations | `https://footydraw.com/calendars/wafcon.ics` | 0 |
 | Olympic women's football | `https://footydraw.com/calendars/olympics-women.ics` | 0 |
-| Women's international friendlies | `https://footydraw.com/calendars/womens-friendlies.ics` | 12 |
+| Women's international friendlies | `https://footydraw.com/calendars/womens-friendlies.ics` | 14 |
 | NRL | `https://footydraw.com/calendars/nrl.ics` | 0 |
 | Rugby League World Cup | `https://footydraw.com/calendars/rlwc.ics` | 16 |
 | AFL | `https://footydraw.com/calendars/afl.ics` | 0 |
