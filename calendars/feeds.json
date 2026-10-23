@@ -237,8 +237,8 @@
   },
   {
    "slug": "football-adelaide-united",
-   "name": "Adelaide United",
-   "short": "Adelaide United",
+   "name": "Adelaide United FC",
+   "short": "Adelaide United FC",
    "family": "football",
    "group": "A-League Men",
    "competitions": [
@@ -687,8 +687,8 @@
   },
   {
    "slug": "football-brisbane-roar",
-   "name": "Brisbane Roar",
-   "short": "Brisbane Roar",
+   "name": "Brisbane Roar FC",
+   "short": "Brisbane Roar FC",
    "family": "football",
    "group": "A-League Men",
    "competitions": [
@@ -843,8 +843,8 @@
   },
   {
    "slug": "football-central-coast-mariners",
-   "name": "Central Coast Mariners",
-   "short": "Central Coast Mariners",
+   "name": "Central Coast Mariners FC",
+   "short": "Central Coast Mariners FC",
    "family": "football",
    "group": "A-League Men",
    "competitions": [
@@ -2611,8 +2611,8 @@
   },
   {
    "slug": "football-perth-glory",
-   "name": "Perth Glory",
-   "short": "Perth Glory",
+   "name": "Perth Glory FC",
+   "short": "Perth Glory FC",
    "family": "football",
    "group": "A-League Men",
    "competitions": [
@@ -3496,8 +3496,8 @@
   },
   {
    "slug": "football-western-sydney-wanderers",
-   "name": "Western Sydney Wanderers",
-   "short": "Western Sydney Wanderers",
+   "name": "Western Sydney Wanderers FC",
+   "short": "Western Sydney Wanderers FC",
    "family": "football",
    "group": "A-League Men",
    "competitions": [
@@ -3542,7 +3542,7 @@
   },
   {
    "slug": "football-women-adelaide-united",
-   "name": "Adelaide United (Women's football)",
+   "name": "Adelaide United",
    "short": "Adelaide United",
    "family": "football-women",
    "group": "A-League Women",
@@ -3673,7 +3673,7 @@
   },
   {
    "slug": "football-women-brisbane-roar",
-   "name": "Brisbane Roar (Women's football)",
+   "name": "Brisbane Roar",
    "short": "Brisbane Roar",
    "family": "football-women",
    "group": "A-League Women",
@@ -3736,7 +3736,7 @@
   },
   {
    "slug": "football-women-central-coast-mariners",
-   "name": "Central Coast Mariners (Women's football)",
+   "name": "Central Coast Mariners",
    "short": "Central Coast Mariners",
    "family": "football-women",
    "group": "A-League Women",
@@ -4367,7 +4367,7 @@
   },
   {
    "slug": "football-women-perth-glory",
-   "name": "Perth Glory (Women's football)",
+   "name": "Perth Glory",
    "short": "Perth Glory",
    "family": "football-women",
    "group": "A-League Women",
