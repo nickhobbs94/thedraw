@@ -87,6 +87,8 @@ body {
 .mixbar .what span { display: block; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .mixbar .actions { display: flex; flex-wrap: wrap; gap: 8px; }
 .mixbar .clear { background: none; border: 0; color: var(--muted); font: inherit; font-size: .85rem; cursor: pointer; text-decoration: underline; padding: 0 4px; }
+.mixbar .phone { flex: 1 1 100%; margin: 0; font-size: .9rem; color: var(--muted); }
+.mixbar .phone .btn { margin-top: 8px; }
 body.mixing { padding-bottom: 130px; }
 @media (prefers-reduced-motion: reduce) { .mixbar, .group summary::before { transition: none; } }
 .how { margin: 48px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
@@ -153,6 +155,9 @@ footer.site a { color: inherit; }
       <button class="btn copy" type="button" id="mix-copy">Copy</button>
       <button class="clear" type="button" id="mix-clear">Clear</button>
     </div>
+    <p class="phone" id="mix-phone" hidden>Google Calendar only adds calendars from a computer, not from a phone.
+      Send the link to yourself and open it on a computer: the calendar then shows up on your phone too.<br>
+      <button class="btn primary" type="button" id="mix-send">Send link</button></p>
   </div>
 </div>
 <script>
@@ -172,7 +177,27 @@ function updateMix() {
   document.getElementById("mix-google").href = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(webcal);
   document.getElementById("mix-webcal").href = webcal;
   document.getElementById("mix-copy").dataset.url = url;
+  document.getElementById("mix-phone").hidden = true;
 }
+// On phones Google's link just opens the Calendar app, which can't add calendars by link.
+var phone = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent) ||
+  (navigator.maxTouchPoints > 1 && /Mac/.test(navigator.platform));  // iPads say they're Macs
+document.getElementById("mix-google").addEventListener("click", function (e) {
+  if (!phone) return;
+  e.preventDefault();
+  document.getElementById("mix-phone").hidden = false;
+});
+document.getElementById("mix-send").addEventListener("click", function () {
+  var b = this, link = document.getElementById("mix-google").href;
+  var title = "Footy Draw: " + document.getElementById("mix-names").textContent;
+  if (navigator.share) {
+    navigator.share({ title: title, text: "Add to Google Calendar (open on a computer)", url: link }).catch(function () {});
+  } else if (navigator.clipboard) {
+    navigator.clipboard.writeText(link).then(function () { b.textContent = "Link copied"; });
+  } else {
+    prompt("Copy this link:", link);
+  }
+});
 picks.forEach(function (p) { p.addEventListener("change", updateMix); });
 updateMix();  // browsers can restore ticks on back/forward
 document.getElementById("mix-clear").addEventListener("click", function () {
