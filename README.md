@@ -19,7 +19,7 @@ Each competition also has its own calendar:
 |---|---|---|
 | A-League Men | `https://footydraw.com/calendars/a-league-men.ics` | 152 |
 | Premier League | `https://footydraw.com/calendars/premier-league.ics` | 315 |
-| Scottish Premiership | `https://footydraw.com/calendars/scottish-premiership.ics` | 146 |
+| Scottish Premiership | `https://footydraw.com/calendars/scottish-premiership.ics` | 145 |
 | UEFA Champions League | `https://footydraw.com/calendars/uefa-champions-league.ics` | 108 |
 | UEFA Europa League | `https://footydraw.com/calendars/uefa-europa-league.ics` | 108 |
 | UEFA Conference League | `https://footydraw.com/calendars/uefa-conference-league.ics` | 90 |
@@ -42,7 +42,7 @@ Each competition also has its own calendar:
 | Africa Cup of Nations | `https://footydraw.com/calendars/afcon.ics` | 0 |
 | Olympic men's football | `https://footydraw.com/calendars/olympics-men.ics` | 0 |
 | International friendlies | `https://footydraw.com/calendars/friendlies.ics` | 33 |
-| A-League Women | `https://footydraw.com/calendars/a-league-women.ics` | 107 |
+| A-League Women | `https://footydraw.com/calendars/a-league-women.ics` | 106 |
 | FIFA Women's World Cup | `https://footydraw.com/calendars/womens-world-cup.ics` | 0 |
 | AFC Women's Asian Cup | `https://footydraw.com/calendars/womens-asian-cup.ics` | 0 |
 | UEFA Women's Euro | `https://footydraw.com/calendars/womens-euro.ics` | 0 |
