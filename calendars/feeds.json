@@ -4491,6 +4491,16 @@
    ]
   },
   {
+   "slug": "football-women-singapore",
+   "name": "Singapore (Women's football)",
+   "short": "Singapore",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "football-women-solomon-islands",
    "name": "Solomon Islands (Women's football)",
    "short": "Solomon Islands",
