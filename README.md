@@ -23,14 +23,14 @@ Each competition also has its own calendar:
 | UEFA Champions League | `https://footydraw.com/calendars/uefa-champions-league.ics` | 90 |
 | UEFA Europa League | `https://footydraw.com/calendars/uefa-europa-league.ics` | 90 |
 | UEFA Conference League | `https://footydraw.com/calendars/uefa-conference-league.ics` | 72 |
-| AFC Champions League Elite | `https://footydraw.com/calendars/acl-elite.ics` | 86 |
-| AFC Champions League Two | `https://footydraw.com/calendars/acl-two.ics` | 64 |
+| AFC Champions League Elite | `https://footydraw.com/calendars/acl-elite.ics` | 83 |
+| AFC Champions League Two | `https://footydraw.com/calendars/acl-two.ics` | 63 |
 | FA Cup | `https://footydraw.com/calendars/fa-cup.ics` | 0 |
 | EFL Cup | `https://footydraw.com/calendars/efl-cup.ics` | 11 |
 | Community Shield | `https://footydraw.com/calendars/community-shield.ics` | 0 |
 | UEFA Super Cup | `https://footydraw.com/calendars/uefa-super-cup.ics` | 0 |
 | Scottish Cup | `https://footydraw.com/calendars/scottish-cup.ics` | 0 |
-| Scottish League Cup | `https://footydraw.com/calendars/scottish-league-cup.ics` | 2 |
+| Scottish League Cup | `https://footydraw.com/calendars/scottish-league-cup.ics` | 3 |
 | FIFA World Cup | `https://footydraw.com/calendars/fifa-world-cup.ics` | 0 |
 | World Cup qualifiers | `https://footydraw.com/calendars/world-cup-qualifiers.ics` | 0 |
 | AFC Asian Cup | `https://footydraw.com/calendars/afc-asian-cup.ics` | 36 |
@@ -41,7 +41,7 @@ Each competition also has its own calendar:
 | Concacaf Nations League | `https://footydraw.com/calendars/concacaf-nations-league.ics` | 32 |
 | Africa Cup of Nations | `https://footydraw.com/calendars/afcon.ics` | 96 |
 | Olympic men's football | `https://footydraw.com/calendars/olympics-men.ics` | 0 |
-| International friendlies | `https://footydraw.com/calendars/friendlies.ics` | 40 |
+| International friendlies | `https://footydraw.com/calendars/friendlies.ics` | 41 |
 | A-League Women | `https://footydraw.com/calendars/a-league-women.ics` | 100 |
 | FIFA Women's World Cup | `https://footydraw.com/calendars/womens-world-cup.ics` | 0 |
 | AFC Women's Asian Cup | `https://footydraw.com/calendars/womens-asian-cup.ics` | 0 |
