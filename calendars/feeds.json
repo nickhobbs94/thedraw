@@ -4590,6 +4590,26 @@
    ]
   },
   {
+   "slug": "football-women-tbd-away",
+   "name": "TBD Away",
+   "short": "TBD Away",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-tbd-home",
+   "name": "TBD Home",
+   "short": "TBD Home",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "football-women-united-states",
    "name": "United States (Women's football)",
    "short": "United States",
