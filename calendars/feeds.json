@@ -3735,6 +3735,16 @@
    ]
   },
   {
+   "slug": "football-women-central-african-republic",
+   "name": "Central African Republic (Women's football)",
+   "short": "Central African Republic",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "football-women-central-coast-mariners",
    "name": "Central Coast Mariners",
    "short": "Central Coast Mariners",
@@ -3742,6 +3752,16 @@
    "group": "A-League Women",
    "competitions": [
     "a-league-women"
+   ]
+  },
+  {
+   "slug": "football-women-chad",
+   "name": "Chad (Women's football)",
+   "short": "Chad",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
    ]
   },
   {
@@ -3792,6 +3812,16 @@
    ]
   },
   {
+   "slug": "football-women-congo",
+   "name": "Congo (Women's football)",
+   "short": "Congo",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "football-women-congo-dr",
    "name": "Congo DR (Women's football)",
    "short": "Congo DR",
@@ -3799,7 +3829,8 @@
    "group": "National teams",
    "competitions": [
     "womens-friendlies"
-   ]
+   ],
+   "listed": false
   },
   {
    "slug": "football-women-costa-rica",
@@ -4484,6 +4515,16 @@
    "slug": "football-women-san-marino",
    "name": "San Marino (Women's football)",
    "short": "San Marino",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-sao-tome-e-principe",
+   "name": "Sao Tome E Principe",
+   "short": "Sao Tome E Principe",
    "family": "football-women",
    "group": "National teams",
    "competitions": [
