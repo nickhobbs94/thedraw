@@ -3792,6 +3792,16 @@
    ]
   },
   {
+   "slug": "football-women-congo-dr",
+   "name": "Congo DR (Women's football)",
+   "short": "Congo DR",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "football-women-costa-rica",
    "name": "Costa Rica (Women's football)",
    "short": "Costa Rica",
@@ -3958,6 +3968,16 @@
    "slug": "football-women-gibraltar",
    "name": "Gibraltar (Women's football)",
    "short": "Gibraltar",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-greece",
+   "name": "Greece (Women's football)",
+   "short": "Greece",
    "family": "football-women",
    "group": "National teams",
    "competitions": [
@@ -4309,6 +4329,16 @@
    "group": "National teams",
    "competitions": [
     "womens-asian-cup"
+   ]
+  },
+  {
+   "slug": "football-women-northern-ireland",
+   "name": "Northern Ireland (Women's football)",
+   "short": "Northern Ireland",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
    ]
   },
   {
