@@ -422,8 +422,7 @@
    "group": "Premier League",
    "competitions": [
     "premier-league",
-    "uefa-champions-league",
-    "efl-cup"
+    "uefa-champions-league"
    ]
   },
   {
@@ -668,8 +667,7 @@
    "family": "football",
    "group": "Premier League",
    "competitions": [
-    "premier-league",
-    "efl-cup"
+    "premier-league"
    ]
   },
   {
@@ -680,8 +678,7 @@
    "group": "Premier League",
    "competitions": [
     "premier-league",
-    "uefa-conference-league",
-    "efl-cup"
+    "uefa-conference-league"
    ]
   },
   {
@@ -868,8 +865,7 @@
    "family": "football",
    "group": "Premier League",
    "competitions": [
-    "premier-league",
-    "efl-cup"
+    "premier-league"
    ]
   },
   {
@@ -1373,8 +1369,7 @@
    "family": "football",
    "group": "Premier League",
    "competitions": [
-    "premier-league",
-    "efl-cup"
+    "premier-league"
    ]
   },
   {
