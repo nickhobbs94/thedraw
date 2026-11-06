@@ -4884,7 +4884,8 @@
    "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
-   ]
+   ],
+   "listed": false
   },
   {
    "slug": "league-fiji",
@@ -4964,7 +4965,8 @@
    "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
-   ]
+   ],
+   "listed": false
   },
   {
    "slug": "league-queensland",

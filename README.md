@@ -17,7 +17,7 @@ Each competition also has its own calendar:
 <!-- FEEDS:START -->
 | Calendar | Subscribe URL | Matches |
 |---|---|---|
-| A-League Men | `https://footydraw.com/calendars/a-league-men.ics` | 145 |
+| A-League Men | `https://footydraw.com/calendars/a-league-men.ics` | 144 |
 | Premier League | `https://footydraw.com/calendars/premier-league.ics` | 300 |
 | Scottish Premiership | `https://footydraw.com/calendars/scottish-premiership.ics` | 132 |
 | UEFA Champions League | `https://footydraw.com/calendars/uefa-champions-league.ics` | 90 |
@@ -52,7 +52,7 @@ Each competition also has its own calendar:
 | Olympic women's football | `https://footydraw.com/calendars/olympics-women.ics` | 0 |
 | Women's international friendlies | `https://footydraw.com/calendars/womens-friendlies.ics` | 30 |
 | NRL | `https://footydraw.com/calendars/nrl.ics` | 0 |
-| Rugby League World Cup | `https://footydraw.com/calendars/rlwc.ics` | 8 |
+| Rugby League World Cup | `https://footydraw.com/calendars/rlwc.ics` | 7 |
 | AFL | `https://footydraw.com/calendars/afl.ics` | 218 |
 <!-- FEEDS:END -->
 
