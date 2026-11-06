@@ -26,7 +26,7 @@ Each competition also has its own calendar:
 | AFC Champions League Elite | `https://footydraw.com/calendars/acl-elite.ics` | 80 |
 | AFC Champions League Two | `https://footydraw.com/calendars/acl-two.ics` | 48 |
 | FA Cup | `https://footydraw.com/calendars/fa-cup.ics` | 0 |
-| EFL Cup | `https://footydraw.com/calendars/efl-cup.ics` | 5 |
+| EFL Cup | `https://footydraw.com/calendars/efl-cup.ics` | 4 |
 | Community Shield | `https://footydraw.com/calendars/community-shield.ics` | 0 |
 | UEFA Super Cup | `https://footydraw.com/calendars/uefa-super-cup.ics` | 0 |
 | Scottish Cup | `https://footydraw.com/calendars/scottish-cup.ics` | 0 |

@@ -2417,8 +2417,7 @@
    "family": "football",
    "group": "Premier League",
    "competitions": [
-    "premier-league",
-    "efl-cup"
+    "premier-league"
    ]
   },
   {
@@ -3958,6 +3957,16 @@
    ]
   },
   {
+   "slug": "football-women-gabon",
+   "name": "Gabon (Women's football)",
+   "short": "Gabon",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "football-women-georgia",
    "name": "Georgia (Women's football)",
    "short": "Georgia",
@@ -4663,7 +4672,8 @@
    "group": "National teams",
    "competitions": [
     "womens-friendlies"
-   ]
+   ],
+   "listed": false
   },
   {
    "slug": "football-women-tbd-home",
@@ -4673,7 +4683,8 @@
    "group": "National teams",
    "competitions": [
     "womens-friendlies"
-   ]
+   ],
+   "listed": false
   },
   {
    "slug": "football-women-united-states",
