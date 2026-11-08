@@ -42,7 +42,7 @@ Each competition also has its own calendar:
 | Africa Cup of Nations | `https://footydraw.com/calendars/afcon.ics` | 96 |
 | Olympic men's football | `https://footydraw.com/calendars/olympics-men.ics` | 0 |
 | International friendlies | `https://footydraw.com/calendars/friendlies.ics` | 44 |
-| A-League Women | `https://footydraw.com/calendars/a-league-women.ics` | 96 |
+| A-League Women | `https://footydraw.com/calendars/a-league-women.ics` | 95 |
 | FIFA Women's World Cup | `https://footydraw.com/calendars/womens-world-cup.ics` | 0 |
 | AFC Women's Asian Cup | `https://footydraw.com/calendars/womens-asian-cup.ics` | 0 |
 | UEFA Women's Euro | `https://footydraw.com/calendars/womens-euro.ics` | 0 |
@@ -52,7 +52,7 @@ Each competition also has its own calendar:
 | Olympic women's football | `https://footydraw.com/calendars/olympics-women.ics` | 0 |
 | Women's international friendlies | `https://footydraw.com/calendars/womens-friendlies.ics` | 30 |
 | NRL | `https://footydraw.com/calendars/nrl.ics` | 0 |
-| Rugby League World Cup | `https://footydraw.com/calendars/rlwc.ics` | 4 |
+| Rugby League World Cup | `https://footydraw.com/calendars/rlwc.ics` | 3 |
 | AFL | `https://footydraw.com/calendars/afl.ics` | 218 |
 <!-- FEEDS:END -->
 
