@@ -18,8 +18,8 @@ Each competition also has its own calendar:
 | Calendar | Subscribe URL | Matches |
 |---|---|---|
 | A-League Men | `https://footydraw.com/calendars/a-league-men.ics` | 139 |
-| Premier League | `https://footydraw.com/calendars/premier-league.ics` | 292 |
-| Scottish Premiership | `https://footydraw.com/calendars/scottish-premiership.ics` | 129 |
+| Premier League | `https://footydraw.com/calendars/premier-league.ics` | 291 |
+| Scottish Premiership | `https://footydraw.com/calendars/scottish-premiership.ics` | 128 |
 | UEFA Champions League | `https://footydraw.com/calendars/uefa-champions-league.ics` | 90 |
 | UEFA Europa League | `https://footydraw.com/calendars/uefa-europa-league.ics` | 90 |
 | UEFA Conference League | `https://footydraw.com/calendars/uefa-conference-league.ics` | 72 |
@@ -30,7 +30,7 @@ Each competition also has its own calendar:
 | Community Shield | `https://footydraw.com/calendars/community-shield.ics` | 0 |
 | UEFA Super Cup | `https://footydraw.com/calendars/uefa-super-cup.ics` | 0 |
 | Scottish Cup | `https://footydraw.com/calendars/scottish-cup.ics` | 0 |
-| Scottish League Cup | `https://footydraw.com/calendars/scottish-league-cup.ics` | 2 |
+| Scottish League Cup | `https://footydraw.com/calendars/scottish-league-cup.ics` | 1 |
 | FIFA World Cup | `https://footydraw.com/calendars/fifa-world-cup.ics` | 0 |
 | World Cup qualifiers | `https://footydraw.com/calendars/world-cup-qualifiers.ics` | 0 |
 | AFC Asian Cup | `https://footydraw.com/calendars/afc-asian-cup.ics` | 36 |
