@@ -23,7 +23,7 @@ Each competition also has its own calendar:
 | UEFA Champions League | `https://footydraw.com/calendars/uefa-champions-league.ics` | 90 |
 | UEFA Europa League | `https://footydraw.com/calendars/uefa-europa-league.ics` | 90 |
 | UEFA Conference League | `https://footydraw.com/calendars/uefa-conference-league.ics` | 72 |
-| AFC Champions League Elite | `https://footydraw.com/calendars/acl-elite.ics` | 80 |
+| AFC Champions League Elite | `https://footydraw.com/calendars/acl-elite.ics` | 76 |
 | AFC Champions League Two | `https://footydraw.com/calendars/acl-two.ics` | 48 |
 | FA Cup | `https://footydraw.com/calendars/fa-cup.ics` | 0 |
 | EFL Cup | `https://footydraw.com/calendars/efl-cup.ics` | 4 |
@@ -33,7 +33,7 @@ Each competition also has its own calendar:
 | Scottish League Cup | `https://footydraw.com/calendars/scottish-league-cup.ics` | 1 |
 | FIFA World Cup | `https://footydraw.com/calendars/fifa-world-cup.ics` | 0 |
 | World Cup qualifiers | `https://footydraw.com/calendars/world-cup-qualifiers.ics` | 0 |
-| AFC Asian Cup | `https://footydraw.com/calendars/afc-asian-cup.ics` | 36 |
+| AFC Asian Cup | `https://footydraw.com/calendars/afc-asian-cup.ics` | 6 |
 | UEFA European Championship | `https://footydraw.com/calendars/uefa-euro.ics` | 0 |
 | UEFA Nations League | `https://footydraw.com/calendars/uefa-nations-league.ics` | 52 |
 | Copa América | `https://footydraw.com/calendars/copa-america.ics` | 0 |
