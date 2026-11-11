@@ -4686,6 +4686,16 @@
    "listed": false
   },
   {
+   "slug": "football-women-t-rkiye",
+   "name": "Türkiye (Women's football)",
+   "short": "Türkiye",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "football-women-united-states",
    "name": "United States (Women's football)",
    "short": "United States",
