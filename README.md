@@ -20,7 +20,7 @@ Each competition also has its own calendar:
 | A-League Men | `https://footydraw.com/calendars/a-league-men.ics` | 139 |
 | Premier League | `https://footydraw.com/calendars/premier-league.ics` | 290 |
 | Scottish Premiership | `https://footydraw.com/calendars/scottish-premiership.ics` | 128 |
-| UEFA Champions League | `https://footydraw.com/calendars/uefa-champions-league.ics` | 88 |
+| UEFA Champions League | `https://footydraw.com/calendars/uefa-champions-league.ics` | 81 |
 | UEFA Europa League | `https://footydraw.com/calendars/uefa-europa-league.ics` | 90 |
 | UEFA Conference League | `https://footydraw.com/calendars/uefa-conference-league.ics` | 72 |
 | AFC Champions League Elite | `https://footydraw.com/calendars/acl-elite.ics` | 66 |
