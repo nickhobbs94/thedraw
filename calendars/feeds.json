@@ -3549,7 +3549,8 @@
    "family": "football-women",
    "group": "National teams",
    "competitions": [
-    "wafcon"
+    "wafcon",
+    "womens-friendlies"
    ]
   },
   {
@@ -4352,7 +4353,8 @@
    "competitions": [
     "womens-world-cup",
     "wafcon",
-    "olympics-women"
+    "olympics-women",
+    "womens-friendlies"
    ]
   },
   {
