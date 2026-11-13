@@ -21,8 +21,8 @@ Each competition also has its own calendar:
 | Premier League | `https://footydraw.com/calendars/premier-league.ics` | 290 |
 | Scottish Premiership | `https://footydraw.com/calendars/scottish-premiership.ics` | 128 |
 | UEFA Champions League | `https://footydraw.com/calendars/uefa-champions-league.ics` | 72 |
-| UEFA Europa League | `https://footydraw.com/calendars/uefa-europa-league.ics` | 81 |
-| UEFA Conference League | `https://footydraw.com/calendars/uefa-conference-league.ics` | 63 |
+| UEFA Europa League | `https://footydraw.com/calendars/uefa-europa-league.ics` | 72 |
+| UEFA Conference League | `https://footydraw.com/calendars/uefa-conference-league.ics` | 54 |
 | AFC Champions League Elite | `https://footydraw.com/calendars/acl-elite.ics` | 65 |
 | AFC Champions League Two | `https://footydraw.com/calendars/acl-two.ics` | 32 |
 | FA Cup | `https://footydraw.com/calendars/fa-cup.ics` | 0 |
