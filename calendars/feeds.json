@@ -3543,6 +3543,16 @@
    ]
   },
   {
+   "slug": "football-women-albania",
+   "name": "Albania (Women's football)",
+   "short": "Albania",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "football-women-algeria",
    "name": "Algeria (Women's football)",
    "short": "Algeria",
@@ -3616,7 +3626,8 @@
    "family": "football-women",
    "group": "National teams",
    "competitions": [
-    "womens-euro"
+    "womens-euro",
+    "womens-friendlies"
    ]
   },
   {
@@ -4037,6 +4048,16 @@
    "group": "National teams",
    "competitions": [
     "womens-world-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-hong-kong",
+   "name": "Hong Kong (Women's football)",
+   "short": "Hong Kong",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
     "womens-friendlies"
    ]
   },
@@ -4688,6 +4709,16 @@
    "listed": false
   },
   {
+   "slug": "football-women-thailand",
+   "name": "Thailand (Women's football)",
+   "short": "Thailand",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "football-women-t-rkiye",
    "name": "Türkiye (Women's football)",
    "short": "Türkiye",
@@ -5081,7 +5112,8 @@
    "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
-   ]
+   ],
+   "listed": false
   },
   {
    "slug": "league-warriors",
