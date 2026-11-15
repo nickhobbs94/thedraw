@@ -18,8 +18,8 @@ Each competition also has its own calendar:
 | Calendar | Subscribe URL | Matches |
 |---|---|---|
 | A-League Men | `https://footydraw.com/calendars/a-league-men.ics` | 135 |
-| Premier League | `https://footydraw.com/calendars/premier-league.ics` | 286 |
-| Scottish Premiership | `https://footydraw.com/calendars/scottish-premiership.ics` | 127 |
+| Premier League | `https://footydraw.com/calendars/premier-league.ics` | 285 |
+| Scottish Premiership | `https://footydraw.com/calendars/scottish-premiership.ics` | 125 |
 | UEFA Champions League | `https://footydraw.com/calendars/uefa-champions-league.ics` | 72 |
 | UEFA Europa League | `https://footydraw.com/calendars/uefa-europa-league.ics` | 72 |
 | UEFA Conference League | `https://footydraw.com/calendars/uefa-conference-league.ics` | 54 |
