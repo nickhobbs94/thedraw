@@ -4313,6 +4313,16 @@
    ]
   },
   {
+   "slug": "football-women-myanmar",
+   "name": "MYANMAR (Women's football)",
+   "short": "MYANMAR",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "football-women-namibia",
    "name": "Namibia (Women's football)",
    "short": "Namibia",
@@ -5062,7 +5072,8 @@
    "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
-   ]
+   ],
+   "listed": false
   },
   {
    "slug": "league-sea-eagles",
