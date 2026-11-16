@@ -3740,6 +3740,16 @@
    ]
   },
   {
+   "slug": "football-women-catalunya-women",
+   "name": "Catalunya Women",
+   "short": "Catalunya Women",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "football-women-central-african-republic",
    "name": "Central African Republic (Women's football)",
    "short": "Central African Republic",
