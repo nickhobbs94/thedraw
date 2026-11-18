@@ -3741,8 +3741,8 @@
   },
   {
    "slug": "football-women-catalunya-women",
-   "name": "Catalunya Women",
-   "short": "Catalunya Women",
+   "name": "Catalunya",
+   "short": "Catalunya",
    "family": "football-women",
    "group": "National teams",
    "competitions": [
@@ -4324,8 +4324,8 @@
   },
   {
    "slug": "football-women-myanmar",
-   "name": "MYANMAR (Women's football)",
-   "short": "MYANMAR",
+   "name": "Myanmar (Women's football)",
+   "short": "Myanmar",
    "family": "football-women",
    "group": "National teams",
    "competitions": [
