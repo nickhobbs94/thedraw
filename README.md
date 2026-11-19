@@ -35,13 +35,13 @@ Each competition also has its own calendar:
 | World Cup qualifiers | `https://footydraw.com/calendars/world-cup-qualifiers.ics` | 0 |
 | AFC Asian Cup | `https://footydraw.com/calendars/afc-asian-cup.ics` | 1 |
 | UEFA European Championship | `https://footydraw.com/calendars/uefa-euro.ics` | 0 |
-| UEFA Nations League | `https://footydraw.com/calendars/uefa-nations-league.ics` | 52 |
+| UEFA Nations League | `https://footydraw.com/calendars/uefa-nations-league.ics` | 50 |
 | Copa América | `https://footydraw.com/calendars/copa-america.ics` | 0 |
 | Concacaf Gold Cup | `https://footydraw.com/calendars/gold-cup.ics` | 0 |
 | Concacaf Nations League | `https://footydraw.com/calendars/concacaf-nations-league.ics` | 40 |
-| Africa Cup of Nations | `https://footydraw.com/calendars/afcon.ics` | 96 |
+| Africa Cup of Nations | `https://footydraw.com/calendars/afcon.ics` | 91 |
 | Olympic men's football | `https://footydraw.com/calendars/olympics-men.ics` | 0 |
-| International friendlies | `https://footydraw.com/calendars/friendlies.ics` | 44 |
+| International friendlies | `https://footydraw.com/calendars/friendlies.ics` | 42 |
 | A-League Women | `https://footydraw.com/calendars/a-league-women.ics` | 91 |
 | FIFA Women's World Cup | `https://footydraw.com/calendars/womens-world-cup.ics` | 0 |
 | AFC Women's Asian Cup | `https://footydraw.com/calendars/womens-asian-cup.ics` | 0 |
