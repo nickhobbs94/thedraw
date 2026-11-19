@@ -3192,6 +3192,26 @@
    ]
   },
   {
+   "slug": "football-tbd-away",
+   "name": "TBD Away",
+   "short": "TBD Away",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "concacaf-nations-league"
+   ]
+  },
+  {
+   "slug": "football-tbd-home",
+   "name": "TBD Home",
+   "short": "TBD Home",
+   "family": "football",
+   "group": "National teams",
+   "competitions": [
+    "concacaf-nations-league"
+   ]
+  },
+  {
    "slug": "football-thailand",
    "name": "Thailand",
    "short": "Thailand",
@@ -4708,7 +4728,7 @@
   },
   {
    "slug": "football-women-tbd-away",
-   "name": "TBD Away",
+   "name": "TBD Away (Women's football)",
    "short": "TBD Away",
    "family": "football-women",
    "group": "National teams",
@@ -4719,7 +4739,7 @@
   },
   {
    "slug": "football-women-tbd-home",
-   "name": "TBD Home",
+   "name": "TBD Home (Women's football)",
    "short": "TBD Home",
    "family": "football-women",
    "group": "National teams",
