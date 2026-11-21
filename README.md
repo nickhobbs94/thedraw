@@ -41,8 +41,8 @@ Each competition also has its own calendar:
 | Concacaf Nations League | `https://footydraw.com/calendars/concacaf-nations-league.ics` | 28 |
 | Africa Cup of Nations | `https://footydraw.com/calendars/afcon.ics` | 75 |
 | Olympic men's football | `https://footydraw.com/calendars/olympics-men.ics` | 0 |
-| International friendlies | `https://footydraw.com/calendars/friendlies.ics` | 31 |
-| A-League Women | `https://footydraw.com/calendars/a-league-women.ics` | 89 |
+| International friendlies | `https://footydraw.com/calendars/friendlies.ics` | 28 |
+| A-League Women | `https://footydraw.com/calendars/a-league-women.ics` | 88 |
 | FIFA Women's World Cup | `https://footydraw.com/calendars/womens-world-cup.ics` | 0 |
 | AFC Women's Asian Cup | `https://footydraw.com/calendars/womens-asian-cup.ics` | 0 |
 | UEFA Women's Euro | `https://footydraw.com/calendars/womens-euro.ics` | 0 |
