@@ -4887,7 +4887,8 @@
    "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
-   ]
+   ],
+   "listed": false
   },
   {
    "slug": "league-broncos",
@@ -5032,7 +5033,8 @@
    "group": "Rugby League World Cup",
    "competitions": [
     "rlwc"
-   ]
+   ],
+   "listed": false
   },
   {
    "slug": "league-panthers",

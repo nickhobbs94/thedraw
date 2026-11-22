@@ -52,7 +52,7 @@ Each competition also has its own calendar:
 | Olympic women's football | `https://footydraw.com/calendars/olympics-women.ics` | 0 |
 | Women's international friendlies | `https://footydraw.com/calendars/womens-friendlies.ics` | 41 |
 | NRL | `https://footydraw.com/calendars/nrl.ics` | 216 |
-| Rugby League World Cup | `https://footydraw.com/calendars/rlwc.ics` | 1 |
+| Rugby League World Cup | `https://footydraw.com/calendars/rlwc.ics` | 0 |
 | AFL | `https://footydraw.com/calendars/afl.ics` | 218 |
 <!-- FEEDS:END -->
 
