@@ -3630,6 +3630,16 @@
    ]
   },
   {
+   "slug": "football-women-azerbaijan",
+   "name": "Azerbaijan (Women's football)",
+   "short": "Azerbaijan",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "football-women-bangladesh",
    "name": "Bangladesh (Women's football)",
    "short": "Bangladesh",
@@ -3876,6 +3886,16 @@
    "competitions": [
     "womens-world-cup",
     "w-gold-cup",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-cyprus",
+   "name": "Cyprus (Women's football)",
+   "short": "Cyprus",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
     "womens-friendlies"
    ]
   },
