@@ -38,7 +38,7 @@ Each competition also has its own calendar:
 | UEFA Nations League | `https://footydraw.com/calendars/uefa-nations-league.ics` | 32 |
 | Copa América | `https://footydraw.com/calendars/copa-america.ics` | 0 |
 | Concacaf Gold Cup | `https://footydraw.com/calendars/gold-cup.ics` | 0 |
-| Concacaf Nations League | `https://footydraw.com/calendars/concacaf-nations-league.ics` | 20 |
+| Concacaf Nations League | `https://footydraw.com/calendars/concacaf-nations-league.ics` | 17 |
 | Africa Cup of Nations | `https://footydraw.com/calendars/afcon.ics` | 66 |
 | Olympic men's football | `https://footydraw.com/calendars/olympics-men.ics` | 0 |
 | International friendlies | `https://footydraw.com/calendars/friendlies.ics` | 22 |
