@@ -4153,6 +4153,16 @@
    ]
   },
   {
+   "slug": "football-women-israel",
+   "name": "Israel (Women's football)",
+   "short": "Israel",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
    "slug": "football-women-italy",
    "name": "Italy (Women's football)",
    "short": "Italy",
@@ -4215,6 +4225,16 @@
    "group": "National teams",
    "competitions": [
     "wafcon",
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-kosovo",
+   "name": "Kosovo (Women's football)",
+   "short": "Kosovo",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
     "womens-friendlies"
    ]
   },
@@ -4772,6 +4792,16 @@
    "slug": "football-women-thailand",
    "name": "Thailand (Women's football)",
    "short": "Thailand",
+   "family": "football-women",
+   "group": "National teams",
+   "competitions": [
+    "womens-friendlies"
+   ]
+  },
+  {
+   "slug": "football-women-tunisia",
+   "name": "Tunisia (Women's football)",
+   "short": "Tunisia",
    "family": "football-women",
    "group": "National teams",
    "competitions": [
