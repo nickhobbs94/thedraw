@@ -4765,7 +4765,8 @@
    "family": "football-women",
    "group": "National teams",
    "competitions": [
-    "wafcon"
+    "wafcon",
+    "womens-friendlies"
    ]
   },
   {
@@ -4776,8 +4777,7 @@
    "group": "National teams",
    "competitions": [
     "womens-friendlies"
-   ],
-   "listed": false
+   ]
   },
   {
    "slug": "football-women-tbd-home",
@@ -4787,8 +4787,7 @@
    "group": "National teams",
    "competitions": [
     "womens-friendlies"
-   ],
-   "listed": false
+   ]
   },
   {
    "slug": "football-women-thailand",
